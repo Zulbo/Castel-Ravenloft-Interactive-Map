@@ -1398,14 +1398,31 @@ sections: [
 
 window.ROOMS_LOCALE = {};
 
+function roomExists(key) {
+  return !!(
+    (window.ROOMS_LOCALE && window.ROOMS_LOCALE[key]) ||
+    (typeof ROOMS !== 'undefined' && ROOMS[key])
+  );
+}
+
 function linkify(text) {
   const escaped = text
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;');
-  return escaped.replace(/area (K\d+|J)\b/g, function(match, key) {
-    return '<span class="room-link" onclick="show(\'' + key + '\')">' + match + '</span>';
+  // Linka ogni codice area valido (es. K7, K18a) ovunque compaia nel testo,
+  // verificandone l'esistenza per evitare falsi positivi (riferimenti a
+  // capitoli esterni come "area S7" o lettere isolate restano testo). L'area
+  // J viene linkata solo con il prefisso esplicito "area", perché la lettera
+  // J da sola è troppo ambigua per essere catturata.
+  let out = escaped.replace(/\bK\d+[a-z]?\b/g, function(match) {
+    if (!roomExists(match)) return match;
+    return '<span class="room-link" onclick="show(\'' + match + '\')">' + match + '</span>';
   });
+  out = out.replace(/area J\b/g, function(match) {
+    return '<span class="room-link" onclick="show(\'J\')">' + match + '</span>';
+  });
+  return out;
 }
 
 function getRoom(key) {
