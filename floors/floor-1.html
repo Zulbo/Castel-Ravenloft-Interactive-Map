@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Castle Ravenloft</title>
+<title>Castel Ravenloft</title>
 
 <style>
 body {
@@ -201,7 +201,22 @@ body {
 
   text-transform: uppercase;
 }
-</style>
+#lang-switcher {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.lang-btn {
+  background: none;
+  border: 1px solid #444;
+  color: #666;
+  padding: 2px 7px;
+  font-size: 11px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+.lang-btn:hover { border-color: #aaa; color: #aaa; }
+.lang-btn.lang-active { border-color: darkred; color: #eee; }</style>
 </head>
 
 <body>
@@ -227,14 +242,15 @@ body {
 <button class="room" style="top:56.07%; left:31.9%;" onclick="show('K67')">K67</button>
 <button class="room" style="top:39.3%; left:20.03%;" onclick="show('K83a')">K83a</button>
 <button class="room" style="top:43.46%; left:38.51%;" onclick="show('K66')">K66</button>
-<button class="room nav" style="top:0.5%; left:20%;" onclick="window.location.href='floor-2.html'">Go Downstairs</button>
-<button class="room nav" style="top:0.5%; left:60%;" onclick="window.location.href='floor0.html'">Go Upstairs</button>
+<button class="room nav" style="top:0.5%; left:20%;" onclick="window.location.href='floor-2.html'" data-i18n="nav_down">Scendi</button>
+<button class="room nav" style="top:0.5%; left:60%;" onclick="window.location.href='floor0.html'" data-i18n="nav_up">Sali</button>
 </div>
 </div>
 
 <div id="info">
+  <div id="lang-switcher"><button class="lang-btn" data-lang="it" onclick="i18nSet('it')">IT</button> <button class="lang-btn" data-lang="en" onclick="i18nSet('en')">EN</button></div>
 
-  <input id="search" placeholder="Search..." autocomplete="off">
+  <input id="search" placeholder="Cerca..." data-i18n-ph="search_placeholder" autocomplete="off">
   <div id="search-results"></div>
 
   <div id="title-box">
@@ -242,11 +258,12 @@ body {
     <span id="title"></span>
   </div>
 
-  <div id="content">Click a number.</div>
+  <div id="content" data-i18n="click_hint">Clicca un numero.</div>
 
 </div>
 
 
+<script src="../i18n.js"></script>
 <script src="../rooms.js"></script>
 <script>
 

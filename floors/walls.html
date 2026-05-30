@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Castle Ravenloft</title>
+<title>Castel Ravenloft</title>
 
 <style>
 body {
@@ -203,7 +203,22 @@ body {
   text-transform: uppercase;
 }
 
-</style>
+#lang-switcher {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.lang-btn {
+  background: none;
+  border: 1px solid #444;
+  color: #666;
+  padding: 2px 7px;
+  font-size: 11px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+.lang-btn:hover { border-color: #aaa; color: #aaa; }
+.lang-btn.lang-active { border-color: darkred; color: #eee; }</style>
 </head>
 
 <body>
@@ -220,13 +235,14 @@ body {
 <button class="room" style="top:25.87%; left:20.13%;" onclick="show('K4')">K4</button>
 <button class="room" style="top:21.49%; left:48.75%;" onclick="show('K5')">K5</button>
 <button class="room" style="top:6.95%; left:48.52%;" onclick="show('K6')">K6</button>
-<button class="room nav" style="top:0.5%; left:44.0%;" onclick="window.location.href='floor0.html'">Enter Castle</button>
+<button class="room nav" style="top:0.5%; left:44.0%;" onclick="window.location.href='floor0.html'" data-i18n="nav_enter">Entra nel Castello</button>
 </div>
 </div>
 
 <div id="info">
+  <div id="lang-switcher"><button class="lang-btn" data-lang="it" onclick="i18nSet('it')">IT</button> <button class="lang-btn" data-lang="en" onclick="i18nSet('en')">EN</button></div>
 
-  <input id="search" placeholder="Search..." autocomplete="off">
+  <input id="search" placeholder="Cerca..." data-i18n-ph="search_placeholder" autocomplete="off">
   <div id="search-results"></div>
 
   <div id="title-box">
@@ -234,11 +250,12 @@ body {
     <span id="title"></span>
   </div>
 
-  <div id="content">Click a number.</div>
+  <div id="content" data-i18n="click_hint">Clicca un numero.</div>
 
 </div>
 
 
+<script src="../i18n.js"></script>
 <script src="../rooms.js"></script>
 
 <script>

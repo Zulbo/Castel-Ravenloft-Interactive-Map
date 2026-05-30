@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#111111">
-<title>Castle Ravenloft Navigator</title>
+<title>Castel Ravenloft — Navigatore</title>
 
 <style>
 body {
@@ -23,7 +23,7 @@ body {
   overflow: auto;
   touch-action: pan-x pan-y;
 }
-	
+
 .container {
   max-width: 700px;
 }
@@ -60,8 +60,6 @@ h1 {
   transform: scale(1.05);
 }
 
-
-
 .floor-list a {
   display: block;
   padding: 12px;
@@ -74,8 +72,6 @@ h1 {
   text-align: center;
 }
 
-}
-
 .floor-list a:hover {
   background: darkred;
   border-color: #aaa;
@@ -86,6 +82,32 @@ h1 {
   font-size: 14px;
   color: #666;
 }
+
+#lang-switcher {
+  margin-top: 24px;
+}
+
+.lang-btn {
+  background: none;
+  border: 1px solid #444;
+  color: #666;
+  padding: 4px 10px;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+
+.lang-btn:hover {
+  border-color: #aaa;
+  color: #aaa;
+}
+
+.lang-btn.lang-active {
+  border-color: darkred;
+  color: #eee;
+}
 </style>
 </head>
 <script>
@@ -93,40 +115,36 @@ if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js");
 }
 </script>
+<script src="i18n.js"></script>
 
 <body>
 
 <div class="container">
 
-  <h1>Castle Ravenloft</h1>
+  <h1 data-i18n="h1_title">Castel Ravenloft</h1>
   <div class="subtitle">
-    Interactive Dungeon Master Map Interface<br>
-    Curse of Strahd – Chapter 4
+    <span data-i18n="subtitle_interface">Interfaccia Interattiva per il Dungeon Master</span><br>
+    <span data-i18n="subtitle_chapter">La Maledizione di Strahd – Capitolo 4</span>
   </div>
 
-<div class="enter">
-  <a href="floors/walls.html">Enter Castle Ravenloft</a>
-</div>
+  <div class="enter">
+    <a href="floors/walls.html" data-i18n="nav_enter_castle">Entra in Castel Ravenloft</a>
+  </div>
 
+  <div id="lang-switcher">
+    <button class="lang-btn" data-lang="it" onclick="i18nSet('it')">IT</button>
+    <button class="lang-btn" data-lang="en" onclick="i18nSet('en')">EN</button>
+  </div>
 
   <div class="footer">
-    Built for Dungeon Master use only.
-	
-	Made by u/UnclePlants
-
-	
+    <span data-i18n="footer_dm_only">Solo per uso del Dungeon Master.</span><br>
+    Made by u/UnclePlants
   </div>
-	  <div class="footer">
-
-	DISCLAIMER:	Ravenloft-Interactive-Map is intended as an easily-accessible digital map and text reference for products you already own. Please ensure you only access content in accordance with your local laws.
-	
+  <div class="footer">
+    DISCLAIMER: Ravenloft-Interactive-Map is intended as an easily-accessible digital map and text reference for products you already own. Please ensure you only access content in accordance with your local laws.
   </div>
 
 </div>
 
 </body>
 </html>
-
-
-
-
