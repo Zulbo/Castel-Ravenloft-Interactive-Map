@@ -12,11 +12,48 @@
       { "type": "dm",       "text": "Il meccanismo di chiusura in ogni torre viene attivato magicamente da una parola che solo Strahd conosce. Può anche essere attivato con un lancio riuscito di dissolvi magie (CD 14). Il ponte levatoio e la saracinesca si muovono esclusivamente se vengono attivati entrambi i meccanismi di chiusura." }
     ]
   },
-  "K2":  { "title": "Cancello del Cortile Centrale",         "sections": [] },
-  "K3":  { "title": "Cortile dei Servitori",                 "sections": [] },
-  "K4":  { "title": "Rimessa per le Carrozze",               "sections": [] },
-  "K5":  { "title": "Giardino della Cappella",               "sections": [] },
-  "K6":  { "title": "Belvedere",                             "sections": [] },
+  "K2": {
+    "title": "Cancello del Cortile Centrale",
+    "sections": [
+      { "type": "dm",   "text": "Due cancelli, uno a nord e uno a sud del mastio, impediscono un facile accesso a ciò che si trova al di là di essi." },
+      { "type": "read", "text": "Un muro massiccio collega le mura esterne del castello al mastio. Un arco largo sei metri e altrettanto alto permette di passare oltre il muro di collegamento, ma è bloccato da una saracinesca di ferro arrugginito." },
+      { "type": "dm",   "text": "La saracinesca è sbloccata e può essere sollevata superando una prova di Forza con CD 15. Può essere aperta anche con una parola d'ordine che solo Strahd e Cyrus Belview (area K62) conoscono. A meno che la saracinesca non venga incastrata o tenuta aperta, si richiude una volta lasciata andare." }
+    ]
+  },
+  "K3": {
+    "title": "Cortile della Servitù",
+    "sections": [
+      { "type": "read", "text": "Questo cortile si trova a nord-est del mastio ed è circondato da imponenti mura. Nell'angolo formato dalle mura esterne c'è una rimessa per le carrozze in pietra con una porta doppia incernierata in legno. Di fronte alla rimessa delle carrozze, uno slanciato portone in legno rinforzato da fasce di ferro conduce all'interno del mastio." },
+      { "type": "dm",   "text": "La rimessa per le carrozze è descritta nell'area K4. La porta di legno che immette nell'area K23 è gonfia e incastrata nel telaio. Un personaggio può aprire la porta con una spallata superando una prova di Forza con CD 10." }
+    ]
+  },
+  "K4": {
+    "title": "Rimessa per le Carrozze",
+    "sections": [
+      { "type": "dm",   "text": "Se i personaggi aprono la porta della rimessa, leggi il testo seguente:" },
+      { "type": "read", "text": "Le due ante della porta si spalancano e rivelano un'elegante carrozza nera dotata di finestrini in vetro e lanterne in ottone." }
+    ]
+  },
+  "K5": {
+    "title": "Giardino della Cappella",
+    "sections": [
+      { "type": "read", "text": "Sul retro del mastio, dietro imponenti contrafforti e alle finestre con vetri colorati sbarrate da assi di legno, un piccolo giardino tenta di sopravvivere. Piccoli fiori si protendono verso il cielo scuro. Due grandi cancelli di ferro bloccano la strada verso una specie di belvedere." },
+      { "type": "dm",   "text": "Quando aperti, i grandi cancelli di ferro cigolano rumorosamente sui cardini arrugginiti. Al di là di essi si trova l'area K6." }
+    ]
+  },
+  "K6": {
+    "title": "Belvedere",
+    "sections": [
+      { "type": "read",     "text": "La pioggia continua a cadere incessantemente da nuvole scure nel cielo. Un viale lastricato conduce a un belvedere pavimentato, serpeggiando tra edifici vuoti. Il belvedere è circondato da un muretto in pietra decorato con intagli di gargoyle rivolti verso l'esterno." },
+      { "type": "dm",       "text": "Se un personaggio si affaccia dal balcone, leggi:" },
+      { "type": "read",     "text": "Un fulmine squarcia il cielo sopra il lugubre villaggio di Barovia, dominando i tetti delle case che emergono dalla coltre di nebbia cento metri più in basso." },
+      { "type": "dm",       "text": "Se un personaggio che si affaccia oltre il parapetto ha un punteggio di Saggezza (Percezione) passiva pari o superiore a 15, aggiungi:" },
+      { "type": "read",     "text": "Sotto la piattaforma su cui vi trovate, circa trenta metri più in basso, una costruzione in pietra sporge dalla parete rocciosa. Ci sono tre finestre incrostate di sporco." },
+      { "type": "dm",       "text": "Le finestre sono così sporche da essere opache, anche se un personaggio vicino può raschiare via lo sporco e scorgere una tomba polverosa al di là del vetro (area K87). I personaggi che cercano di raggiungere le finestre dal belvedere devono scendere di 30 metri e spostarsi di 6 metri sotto la piattaforma. Questa discesa non può essere eseguita senza l'ausilio della magia o di un kit da scalatore. Chiunque cada dal belvedere precipita di 300 metri." },
+      { "type": "subtitle", "text": "Le Sorti di Ravenloft" },
+      { "type": "dm",       "text": "Se la lettura delle carte indica un incontro con Strahd in quest'area, i personaggi lo trovano mentre guarda fuori dal balcone." }
+    ]
+  },
   "K7":  { "title": "Ingresso",                              "sections": [] },
   "K8":  { "title": "Grande Ingresso",                       "sections": [] },
   "K9":  { "title": "Sala degli Ospiti",                     "sections": [] },
