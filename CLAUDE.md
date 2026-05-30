@@ -54,3 +54,34 @@ Per sincronizzare con l'originale: `git fetch upstream && git merge upstream/mai
 - Conventional Commits
 - Nessuna dipendenza esterna — l'app deve restare statica e funzionante da `file://`
 - Non introdurre build step o bundler: plain HTML/JS/CSS
+
+## Traduzione stanze
+
+Le traduzioni italiane sono in `locales/rooms.it.json`. Flusso per ogni stanza:
+
+1. Jackson incolla l'OCR nella nota Obsidian (`*(da tradurre)*` → testo grezzo)
+2. Pulisco gli errori OCR confrontando con `rooms.js` (ancora semantica)
+3. Patcho la nota Obsidian con testo pulito:
+   - sezioni narrative → `> [!narrazione]`
+   - sottotitoli → `## TITOLO`
+   - riferimenti ad altre aree → `[[KXX - Titolo|area KXX]]`
+4. Aggiorno `rooms.it.json` con le sezioni complete
+
+Se `sections: []`, la stanza mostra titolo IT + sezioni EN (fallback in `getRoom()`).
+`linkify()` in `rooms.js` trasforma automaticamente `area KXX` in span cliccabili nel webapp.
+
+### Vault Obsidian — struttura note
+
+Path base: `Assets/05. Locations/Castel Ravenloft/` (vault LMdS)
+
+| Cartella | Stanze |
+|---|---|
+| `Mura di Ravenloft/` | J, K1–K6 |
+| `Piano Terra/` | K7–K24, K29, K64 |
+| `Primo Piano/` | K25–K34, K83 |
+| `Secondo Piano/` | K35–K46 |
+| `Piani 3-7/` | K47–K60 |
+| `Piano -1/` | K61–K72, K79 |
+| `Piano -2/` | K73–K88 |
+
+Nome file: `KXX - Titolo Italiano.md`
