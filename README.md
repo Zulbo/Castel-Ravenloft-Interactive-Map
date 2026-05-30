@@ -1,53 +1,55 @@
-# Castel Ravenloft — Mappa Interattiva
+# Castle Ravenloft — Interactive Map
 
-Fork personale della mappa interattiva di **Castel Ravenloft** per la campagna *Curse of Strahd* (D&D 5e).
+[![it](https://img.shields.io/badge/lang-it-green.svg)](README.it.md)
 
-## Crediti
+Personal fork of the interactive map of **Castle Ravenloft** for the *Curse of Strahd* campaign (D&D 5e).
 
-L'idea originale di rendere la mappa navigabile e interattiva è di [**UnclePlants**](https://github.com/UnclePlants/Ravenloft-Interactive-Map) — il progetto sorgente da cui questa fork è derivata. Tutto il merito per la struttura dell'applicazione, la navigazione per piano e l'interfaccia è suo.
+## Credits
 
-Il contenuto cartografico e testuale è basato su *Curse of Strahd* © Wizards of the Coast. Questo progetto è inteso esclusivamente come riferimento per uso personale da parte di chi possiede già il prodotto originale.
+The original idea of turning the castle map into a navigable, interactive application belongs to [**UnclePlants**](https://github.com/UnclePlants/Ravenloft-Interactive-Map) — this fork is derived from their work. All credit for the app structure, floor-by-floor navigation and interface goes to them.
 
-## Struttura
+Map and room content is based on *Curse of Strahd* © Wizards of the Coast. This project is intended solely as a personal reference tool for those who already own the original product.
+
+## Structure
 
 ```
-index.html          — pagina di ingresso
-walls.html          — pianta delle mura esterne
-floor-2.html        — piano -2
-floor-1.html        — piano -1
-floor0.html         — piano terra
-floor1.html         — piano 1
-floor2.html         — piano 2
-floor3,4,5,6,7.html — piani 3–7
-rooms.js            — dati stanze
-sw.js               — service worker (cache offline)
-*.webp              — mappe per piano
+index.html          — entry page
+walls.html          — outer walls plan
+floor-2.html        — floor -2
+floor-1.html        — floor -1
+floor0.html         — ground floor
+floor1.html         — floor 1
+floor2.html         — floor 2
+floor3,4,5,6,7.html — floors 3–7
+rooms.js            — room data
+sw.js               — service worker (offline cache)
+*.webp              — floor map images
 ```
 
-## Uso locale
+## Local use
 
 ```bash
 git clone https://github.com/Jackson98Tomphson/Castel-Ravenloft-Interactive-Map.git
 ```
 
-Apri `index.html` in un browser — nessun server necessario, tutti i path sono relativi.
+Open `index.html` in any browser — no server required, all paths are relative.
 
-## Integrazione con Obsidian (Custom Frames)
+## Obsidian integration (Custom Frames)
 
-1. Installa il plugin **Custom Frames** nel vault Obsidian
-2. Aggiungi un nuovo frame con URL:
+1. Install the **Custom Frames** plugin in your Obsidian vault
+2. Add a new frame with URL:
    ```
    file:///C:/repos/Castel-Ravenloft-Interactive-Map/index.html
    ```
-3. La mappa è accessibile direttamente dal pannello laterale, offline
+3. The map is accessible directly from the side panel, fully offline
 
-## Aggiornamenti dall'upstream
+## Syncing with upstream
 
 ```bash
 git fetch upstream
 git merge upstream/main
 ```
 
-## Licenza
+## License
 
-Il codice e la struttura dell'applicazione sono distribuiti sotto licenza [CC BY-NC-SA 4.0](LICENSE). Uso non commerciale, con attribuzione, share-alike.
+Code and app structure are distributed under [CC BY-NC-SA 4.0](LICENSE). Non-commercial use, with attribution, share-alike.
