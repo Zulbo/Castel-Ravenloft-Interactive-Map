@@ -1398,6 +1398,16 @@ sections: [
 
 window.ROOMS_LOCALE = {};
 
+function linkify(text) {
+  const escaped = text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+  return escaped.replace(/area (K\d+|J)\b/g, function(match, key) {
+    return '<span class="room-link" onclick="show(\'' + key + '\')">' + match + '</span>';
+  });
+}
+
 function getRoom(key) {
   const locale = window.ROOMS_LOCALE && window.ROOMS_LOCALE[key];
   if (!locale) return ROOMS[key];
