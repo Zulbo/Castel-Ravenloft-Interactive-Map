@@ -40,6 +40,32 @@ body {
   padding: 15px;
 
 }
+#room-code {
+  color: #c65a00;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-right: 10px;
+  text-shadow: 0 0 4px #400000;
+}
+#title-box {
+  background: #181818;
+  border: 1px solid #333;
+  padding: 14px;
+  margin-bottom: 18px;
+  border-radius: 6px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#title {
+  font-size: 20px;
+  font-weight: 600;
+    color:  #c65a00;
+}
+
+
 
 
 .room {
@@ -112,31 +138,6 @@ body {
 
 
 }
-#room-code {
-  color: #c65a00;
-  font-weight: bold;
-  letter-spacing: 1px;
-  margin-right: 10px;
-  text-shadow: 0 0 4px #400000;
-}
-#title-box {
-  background: #181818;
-  border: 1px solid #333;
-  padding: 14px;
-  margin-bottom: 18px;
-  border-radius: 6px;
-
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-#title {
-  font-size: 20px;
-  font-weight: 600;
-    color:  #c65a00;
-}
-}
 #search-container {
   margin-bottom: 15px;
 }
@@ -201,6 +202,7 @@ body {
 
   text-transform: uppercase;
 }
+
 </style>
 </head>
 
@@ -208,36 +210,17 @@ body {
 
 <div id="map-wrapper">
   <div id="map-inner">
-    <img src="floor0.webp">
- <!-- FLOOR 0 BUTTONS -->
-<button class="room" style="top:47.86%; left:34.11%;" onclick="show('K7')">K7</button>
-<button class="room" style="top:47.99%; left:42.78%;" onclick="show('K8')">K8</button>
-<button class="room" style="top:62.09%; left:42.88%;" onclick="show('K9')">K9</button>
-<button class="room" style="top:60.2%; left:37.69%;" onclick="show('K10')">K10</button>
-<button class="room" style="top:64.94%; left:25.16%;" onclick="show('K11')">K11</button>
-<button class="room" style="top:74.84%; left:21.11%;" onclick="show('K12')">K12</button>
-<button class="room" style="top:21.01%; left:21.11%;" onclick="show('K12')">K12</button>
-<button class="room" style="top:20.88%; left:35.62%;" onclick="show('K13')">K13</button>
-<button class="room" style="top:74.97%; left:34.3%;" onclick="show('K13')">K13</button>
-<button class="room" style="top:47.99%; left:52.96%;" onclick="show('K14')">K14</button>
-<button class="room" style="top:47.86%; left:76.42%;" onclick="show('K15')">K15</button>
-<button class="room" style="top:37.69%; left:67.19%;" onclick="show('K16')">K16</button>
-<button class="room" style="top:58.3%; left:67.28%;" onclick="show('K17')">K17</button>
-<button class="room" style="top:57.62%; left:63.8%;" onclick="show('K18')">K18</button>
-<button class="room" style="top:60.47%; left:60.03%;" onclick="show('K18a')">K18a</button>
-<button class="room" style="top:25.89%; left:32.6%;" onclick="show('K19')">K19</button>
-<button class="room" style="top:37.96%; left:50.32%;" onclick="show('K20')">K20</button>
-<button class="room" style="top:29.96%; left:55.5%;" onclick="show('K20a')">K20a</button>
-<button class="room" style="top:69.14%; left:54.37%;" onclick="show('K21')">K21</button>
-<button class="room" style="top:30.1%; left:26.2%;" onclick="show('K22')">K22</button>
-<button class="room" style="top:21.83%; left:63.89%;" onclick="show('K23')">K23</button>
-<button class="room" style="top:15.86%; left:63.32%;" onclick="show('K24')">K24</button>
-<button class="room" style="top:38.5%; left:61.72%;" onclick="show('K29')">K29</button>
-<button class="room" style="top:58.16%; left:51.55%;" onclick="show('K31a')">K31a</button>
-<button class="room" style="top:74.97%; left:43.63%;" onclick="show('K64')">K64</button>
-<button class="room nav" style="top:0.5%; left:40%;" onclick="window.location.href='walls.html'">Exit Castle</button>
-<button class="room nav" style="top:0.5%; left:20%;" onclick="window.location.href='floor-1.html'">Go Downstairs</button>
-<button class="room nav" style="top:0.5%; left:60%;" onclick="window.location.href='floor1.html'">Go Upstairs</button>
+    <img src="walls.webp">
+ <!-- WALLS BUTTONS -->
+<button class="room" style="top:93.18%; left:48.75%;" onclick="show('J')">J</button>
+<button class="room" style="top:66.28%; left:48.62%;" onclick="show('K1')">K1</button>
+<button class="room" style="top:49.27%; left:74.58%;" onclick="show('K2')">K2</button>
+<button class="room" style="top:49.34%; left:22.27%;" onclick="show('K2')">K2</button>
+<button class="room" style="top:32.89%; left:35.1%;" onclick="show('K3')">K3</button>
+<button class="room" style="top:25.87%; left:20.13%;" onclick="show('K4')">K4</button>
+<button class="room" style="top:21.49%; left:48.75%;" onclick="show('K5')">K5</button>
+<button class="room" style="top:6.95%; left:48.52%;" onclick="show('K6')">K6</button>
+<button class="room nav" style="top:0.5%; left:44.0%;" onclick="window.location.href='floor0.html'">Enter Castle</button>
 </div>
 </div>
 
@@ -256,9 +239,7 @@ body {
 </div>
 
 
-<script src="rooms.js"></script>
-
-<script src="rooms.js"></script>
+<script src="../rooms.js"></script>
 
 <script>
 
