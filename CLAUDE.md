@@ -18,7 +18,21 @@ Usata localmente via Obsidian Custom Frames o direttamente nel browser.
 - `sw.js` — service worker PWA, gestisce la cache offline
 - `manifest.json` — metadati PWA
 
-Tutti i path sono relativi — l'app funziona da `file://` senza server.
+Tutti i path sono relativi — l'app funziona da `file://` in un browser normale.
+Per Obsidian Custom Frames serve un server HTTP locale (il webview blocca `file://`).
+
+## Avvio per Obsidian
+
+```powershell
+ravenloft   # funzione nel profilo PowerShell, avvia il server in background
+```
+
+Oppure manualmente:
+```powershell
+python -m http.server 8080 --directory "C:\repos\Castel-Ravenloft-Interactive-Map"
+```
+
+Custom Frames → URL: `http://localhost:8080/index.html`
 
 ## Upstream
 
