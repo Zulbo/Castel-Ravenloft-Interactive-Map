@@ -216,7 +216,9 @@ body {
   transition: all 0.2s;
 }
 .lang-btn:hover { border-color: #aaa; color: #aaa; }
-.lang-btn.lang-active { border-color: darkred; color: #eee; }</style>
+.lang-btn.lang-active { border-color: darkred; color: #eee; }
+.room-link { color: #c9a227; cursor: pointer; text-decoration: underline; text-decoration-style: dotted; }
+.room-link:hover { color: #e8c547; }</style>
 </head>
 <body>
 
@@ -307,7 +309,11 @@ function show(room) {
       block.className = "dm-text";
     }
 
-    block.innerText = section.text.trim();
+    if (section.type === "dm" || section.type === "read") {
+      block.innerHTML = linkify(section.text.trim());
+    } else {
+      block.innerText = section.text.trim();
+    }
     contentEl.appendChild(block);
 
   });
