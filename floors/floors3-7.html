@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (count >= MAX_RESULTS) break;
 
-      const room = ROOMS[key];
+      const room = getRoom(key);
 
       let fullText = key + " " + room.title;
 

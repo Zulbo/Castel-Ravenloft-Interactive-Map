@@ -1399,6 +1399,11 @@ sections: [
 window.ROOMS_LOCALE = {};
 
 function getRoom(key) {
-  return (window.ROOMS_LOCALE && window.ROOMS_LOCALE[key]) || ROOMS[key];
+  const locale = window.ROOMS_LOCALE && window.ROOMS_LOCALE[key];
+  if (!locale) return ROOMS[key];
+  if (locale.sections && locale.sections.length > 0) return locale;
+  const en = ROOMS[key];
+  if (!en) return locale;
+  return { title: locale.title, sections: en.sections };
 }
 
