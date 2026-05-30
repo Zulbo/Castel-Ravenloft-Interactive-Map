@@ -13,18 +13,26 @@ Il contenuto cartografico e testuale è basato su *Curse of Strahd* © Wizards o
 ## Struttura
 
 ```
-index.html          — pagina di ingresso
-walls.html          — pianta delle mura esterne
-floor-2.html        — piano -2
-floor-1.html        — piano -1
-floor0.html         — piano terra
-floor1.html         — piano 1
-floor2.html         — piano 2
-floor3,4,5,6,7.html — piani 3–7
-rooms.js            — dati stanze
-sw.js               — service worker (cache offline)
-*.webp              — mappe per piano
+index.html        — pagina di ingresso + selettore lingua
+i18n.js           — loader locale (UI e contenuto stanze)
+rooms.js          — dati stanze in inglese (fonte canonica)
+sw.js             — service worker (cache offline)
+floors/           — pagine HTML per piano + mappe (.webp)
+locales/          — file di localizzazione
+  en.json         — stringhe UI in inglese
+  it.json         — stringhe UI in italiano
+  rooms.it.json   — traduzioni stanze in italiano (in corso)
+  CONTRIBUTING.md — guida per aggiungere o completare una lingua
+icons/            — icone PWA
 ```
+
+## Localizzazione
+
+La lingua dell'interfaccia si cambia con i bottoni **IT** e **EN** presenti nella pagina di ingresso e nel pannello info di ogni piano. La scelta viene salvata in `localStorage`.
+
+Il contenuto delle stanze è in inglese per default (`rooms.js`). Le traduzioni si trovano in `locales/rooms.[lang].json` e sovrascrivono la fonte inglese — le stanze non ancora tradotte mostrano automaticamente il testo originale.
+
+Per contribuire una traduzione consulta [`locales/CONTRIBUTING.md`](locales/CONTRIBUTING.md).
 
 ## Uso locale
 

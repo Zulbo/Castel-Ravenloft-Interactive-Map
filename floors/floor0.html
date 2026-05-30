@@ -282,7 +282,7 @@ body {
 
 function show(room) {
 
-  const data = ROOMS[room];
+  const data = getRoom(room);
   if (!data) return;
 
   const codeEl = document.getElementById("room-code");

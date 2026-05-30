@@ -1396,3 +1396,9 @@ sections: [
 
 };
 
+window.ROOMS_LOCALE = {};
+
+function getRoom(key) {
+  return (window.ROOMS_LOCALE && window.ROOMS_LOCALE[key]) || ROOMS[key];
+}
+

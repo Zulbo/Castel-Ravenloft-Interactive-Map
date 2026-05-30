@@ -7,7 +7,7 @@
     return localStorage.getItem('locale') || DEFAULT;
   }
 
-  function apply(lang) {
+  function applyUI(lang) {
     fetch(base + 'locales/' + lang + '.json')
       .then(r => r.json())
       .then(t => {
@@ -25,10 +25,26 @@
       });
   }
 
+  function applyRooms(lang) {
+    if (lang === 'en') {
+      window.ROOMS_LOCALE = {};
+      return;
+    }
+    fetch(base + 'locales/rooms.' + lang + '.json')
+      .then(r => r.json())
+      .then(data => { window.ROOMS_LOCALE = data; })
+      .catch(() => { window.ROOMS_LOCALE = {}; });
+  }
+
   window.i18nSet = function (lang) {
     localStorage.setItem('locale', lang);
-    apply(lang);
+    applyUI(lang);
+    applyRooms(lang);
   };
 
-  document.addEventListener('DOMContentLoaded', () => apply(getLocale()));
+  document.addEventListener('DOMContentLoaded', function () {
+    const lang = getLocale();
+    applyUI(lang);
+    applyRooms(lang);
+  });
 })();

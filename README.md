@@ -13,18 +13,26 @@ Map and room content is based on *Curse of Strahd* © Wizards of the Coast. This
 ## Structure
 
 ```
-index.html          — entry page
-walls.html          — outer walls plan
-floor-2.html        — floor -2
-floor-1.html        — floor -1
-floor0.html         — ground floor
-floor1.html         — floor 1
-floor2.html         — floor 2
-floor3,4,5,6,7.html — floors 3–7
-rooms.js            — room data
-sw.js               — service worker (offline cache)
-*.webp              — floor map images
+index.html        — entry page + language selector
+i18n.js           — locale loader (UI strings + room overrides)
+rooms.js          — room data in English (canonical source)
+sw.js             — service worker (offline cache)
+floors/           — floor HTML pages + map images (.webp)
+locales/          — i18n files
+  en.json         — UI strings in English
+  it.json         — UI strings in Italian
+  rooms.it.json   — room content overrides in Italian (in progress)
+  CONTRIBUTING.md — guide for adding or completing a translation
+icons/            — PWA icons
 ```
+
+## Localization
+
+The UI language can be switched between **IT** and **EN** via the selector on the entry page and in each floor's info panel. The choice is saved in `localStorage`.
+
+Room content defaults to English (`rooms.js`). Translated rooms are loaded from `locales/rooms.[lang].json` and overlay the English source — untranslated rooms fall back to English automatically.
+
+To contribute a translation see [`locales/CONTRIBUTING.md`](locales/CONTRIBUTING.md).
 
 ## Local use
 
