@@ -507,9 +507,12 @@
   "K47": {
     "title": "Ritratto di Strahd",
     "sections": [
-      { "type": "read", "text": "Arrivate in un buio pianerottolo largo tre metri e lungo sei. Una fredda raffica di vento scende giù per la scala a chiocciola e fischia lugubremente nella stanza. Un tappeto quadrato decorato copre il pavimento a sud. Sul muro ovest si trova una porta di legno con rinforzi in ferro battuto e sul pavimento davanti a essa è incastonata una botola. Sulla parete nord, sopra la botola, è appeso il ritratto incorniciato di un bell'uomo ben vestito, con uno sguardo sereno ma penetrante." },
-      { "type": "dm",   "text": "Il tappeto decorato è un tappeto soffocante: attacca tutte le creature (a eccezione dei non morti) che ci passano sopra. La botola, tirandone l'anello, rivela un pozzo profondo 52 metri (area K31a) o, se la trappola montacarichi è attiva (area K61), un vano montacarichi in pietra." },
-      { "type": "dm",   "text": "Il ritratto raffigura Strahd von Zarovich prima che diventasse un vampiro. Gli occhi sembrano seguire i personaggi. Se qualcuno attacca il tappeto o il quadro, il ritratto guardiano (vedi appendice D) attacca." }
+      { "type": "read", "text": "Giungete a un pianerottolo buio, largo tre metri e lungo sei. Una fredda corrente d'aria si precipita giù per la scala a chiocciola all'estremità nord della parete est e fischia lugubre attraverso la stanza prima di defluire giù per le scale a sud." },
+      { "type": "dm",   "text": "Un tappeto quadrato e ornato copre il pavimento a sud. Incassata nella parete ovest c'è una porta di legno cerchiata di ferro, con una botola di legno incassata nel pavimento davanti a essa. Appeso alla parete nord, sopra la botola, c'è un ritratto incorniciato di un uomo affascinante e ben vestito, dallo sguardo sereno ma penetrante." },
+      { "type": "dm",   "text": "Il tappeto ornato è in realtà un tappeto soffocante. Attacca le creature, diverse dai non morti, che lo attraversano, oppure chiunque cerchi di spostarlo o comunque di disturbarlo. Sotto il tappeto c'è il nudo pavimento di pietra." },
+      { "type": "dm",   "text": "La botola di legno quadrata è di poco più di un metro per lato e spessa quanto il pavimento, con cardini di ferro a scomparsa e un anello di ferro fissato sul lato opposto ai cardini. Tirando l'anello verso l'alto si apre la botola. Sotto la botola, i personaggi vedono una di due cose: o un pozzo profondo circa 52 metri (area K31a), oppure, se la trappola del montacarichi è stata attivata (vedi area K61), un vano-ascensore di pietra con una botola segreta sulla sua sommità." },
+      { "type": "dm",   "text": "Il ritratto sulla parete raffigura Strahd von Zarovich prima che diventasse un vampiro. Anche da vivo era pallido. Gli occhi del ritratto sembrano osservare e seguire i personaggi mentre esplorano l'area. La cornice del quadro è imbullonata alla parete e non può essere rimossa senza distruggerla." },
+      { "type": "dm",   "text": "Se i personaggi attaccano il tappeto o il quadro, o se tentano di rimuovere uno dei due oggetti, il ritratto guardiano (vedi appendice D) attacca." }
     ]
   },
   "K48": {
@@ -521,10 +524,13 @@
   "K49": {
     "title": "Salotto",
     "sections": [
-      { "type": "read", "text": "Mentre il rombo di un tuono scuote la torre, le pesanti travi gemono sotto il peso del soffitto. Tre lanterne decorate pendono da catene ed emanano un debole bagliore. Sulla parete ricurva a ovest si aprono tre finestre di vetro piombato protette da un traliccio di acciaio. Una libreria è addossata alla parete est, tra due porte. Il tessuto dei grandi divani imbottiti è sbiadito dal tempo. Un bellissimo ragazzo con abiti eleganti ma consumati è seduto su un divano." },
-      { "type": "dm",   "text": "Il giovane uomo è Escher, una progenie vampirica preferita di Strahd. Se attaccato, si lancia dalla finestra e atterra sul tetto del mastio (area K53), conducendo gli inseguitori verso Strahd." },
+      { "type": "read",     "text": "Mentre il tuono scuote la torre, pesanti travi gemono sotto il peso del soffitto. Tre lanterne ornate pendono da queste travi tramite catene, ciascuna diffondendo un bagliore fioco. La parete ovest, curva, è dotata di tre finestre di vetro piombato in un reticolo d'acciaio. Una libreria è addossata alla parete est tra due porte. Sedie e divani imbottiti e morbidi sono disposti per la stanza. Il tessuto è sbiadito con l'età e i motivi che raffigura sono quasi scomparsi. Sdraiato su un divano c'è un affascinante giovane uomo il cui abbigliamento, benché elegante, è logoro e sbiadito." },
+      { "type": "dm",       "text": "Il giovane uomo sul divano è Escher, un'affascinante progenie vampirica che in passato ha goduto del favore di Strahd. Ultimamente Escher si sente un po' trascurato e si è ritirato qui in attesa che l'umore di Strahd migliori. Se attaccato, si getta dalla finestra e atterra come un gatto sul tetto del mastio (area K53). Conduce gli inseguitori dritti da Strahd, ovunque il signore del castello si trovi (e a prescindere dal fatto che i personaggi siano pronti ad affrontarlo)." },
+      { "type": "dm",       "text": "In conversazione, Escher sfoggia arguzia con una punta di malinconia. Sotto il suo umore beffardo si cela il terrore che Strahd si stia stancando di lui e lo rinchiuda nelle catacombe (area K84) insieme alle altre consorti che Strahd ha messo da parte." },
+      { "type": "dm",       "text": "Le finestre piombate sono dotate di cardini di ferro e possono essere aperte. Possono essere bloccate dall'interno, anche se al momento sono sbloccate. Il vetro piombato non permette granché come vista. Se un personaggio apre una finestra e la lascia aperta, c'è una probabilità del 50% che una progenie vampirica che striscia lungo la parete esterna della torre noti la finestra aperta e vada a indagare." },
+      { "type": "dm",       "text": "I libri nella libreria non hanno valore e non sono di grande aiuto per i personaggi. Tra i titoli presenti sullo scaffale ci sono Imbalsamazione: l'arte perduta, Vivere tra i non morti: imparare a conviverci, Costruire castelli per principianti e Le capre dei Monti Balinok." },
       { "type": "subtitle", "text": "Tesoro" },
-      { "type": "dm",   "text": "Escher porta un anello di platino con rose incise (150 mo) e una collana con ciondolo in oro e rubini (750 mo)." }
+      { "type": "dm",       "text": "All'anulare della mano sinistra, Escher porta un anello di platino inciso con minuscole rose e spine (del valore di 150 mo). Al collo porta un ciondolo d'oro e rubino (del valore di 750 mo)." }
     ]
   },
   "K50": {
@@ -537,8 +543,9 @@
   "K51": {
     "title": "Ripostiglio",
     "sections": [
-      { "type": "read", "text": "Questa piccola stanza rivestita da pannelli in legno puzza di muffa. Ganci di ferro sono allineati alle pareti e da uno di questi, al centro della parete sud, pende un mantello nero e impolverato." },
-      { "type": "dm",   "text": "Le streghe dell'area K56 hanno posizionato qui il mantello per ricordare quale gancio apre la botola segreta nel soffitto. La botola può essere aperta tirando verso il basso il gancio, oppure con arnesi da scasso o magia." }
+      { "type": "read", "text": "Questa piccola stanza rivestita di legno puzza di muffa e ha un soffitto alto tre metri. Ganci di ferro rivestono le pareti, e un polveroso mantello nero pende da un gancio al centro della parete sud." },
+      { "type": "dm",   "text": "Il mantello è comune. Le streghe dell'area K56 lo hanno messo qui per ricordarsi quale gancio apre la botola segreta nel soffitto." },
+      { "type": "dm",   "text": "La botola può essere trovata dopo una perquisizione della stanza e una prova di Saggezza (Percezione) con CD 13 riuscita. Individuare la botola non permette di scoprirne il meccanismo di apertura. La porta ha una serratura nascosta e può essere aperta tirando verso il basso il gancio da cui pende il mantello nero. Una volta trovata, la botola può essere aperta tirando il gancio, oppure può essere sbloccata da qualcuno che usa arnesi da scasso, un incantesimo bussare o una magia simile. Si apre verso il basso quando viene sbloccata." }
     ]
   },
   "K52": {
@@ -550,8 +557,10 @@
   "K53": {
     "title": "Tetto",
     "sections": [
-      { "type": "read", "text": "La pioggia si riversa sul tetto ripido e incurvato. I lampi dei fulmini illuminano dei gargoyle appollaiati alle estremità del tetto, i loro orribili sguardi fissi per sempre sul cortile che si trova circa quaranta metri più in basso." },
-      { "type": "dm",   "text": "Per attraversare il tetto, un personaggio deve superare una prova di Destrezza (Acrobazia) con CD 15. Se fallisce con uno scarto di 5 o più, scivola dal bordo e cade per 12 metri sul parapetto del castello (area K46)." }
+      { "type": "read", "text": "La pioggia schizza contro il tetto cadente e spiovente. I lampi illuminano i gargoyle appollaiati sui picchi terminali del tetto, i loro sguardi orribili fissati per sempre sul cortile circa 40 metri più in basso." },
+      { "type": "dm",   "text": "Se un personaggio cerca di attraversare il tetto, leggi:" },
+      { "type": "read", "text": "Alcune delle antiche tegole scivolano facilmente sotto i piedi, precipitando senza fatica nell'oscurità avvolta dalla nebbia. Ogni tegola che cade risuona con un clic sordo quando colpisce le lastre di pietra del camminamento o del cortile sottostante." },
+      { "type": "dm",   "text": "Un personaggio deve superare una prova di Destrezza (Acrobazia) con CD 15 per attraversare il tetto. La prova riesce automaticamente se il personaggio procede carponi. Se la prova fallisce di 5 o più, il personaggio scivola oltre il bordo del tetto e cade per 12 metri fino al camminamento del castello (area K46)." }
     ]
   },
   "K54": {
@@ -564,19 +573,29 @@
   "K55": {
     "title": "Stanza degli ingredienti",
     "sections": [
-      { "type": "read", "text": "Pesanti travi sostengono il soffitto di questa grande stanza, il cui muro esterno si incurva per seguire la forma della torre. La luce fioca filtra attraverso i graticci d'acciaio di due finestre di vetro piombato. Diversi tavoli sono disposti nella stanza, appesantiti da pile di barattoli di vetro e bottiglie con etichette." },
-      { "type": "dm",   "text": "I contenitori etichettati contengono gli ingredienti delle streghe: occhio di tritone, peli di pipistrello, cuori di lumaca, alito di rana. Non ci sono pozioni magiche." },
-      { "type": "dm",   "text": "C'è una botola segreta nell'angolo nord-est del pavimento, individuabile grazie a una scia nella polvere senza prove di caratteristica. Bussando tre volte sulla botola si apre il chiavistello nascosto, rivelando l'area K51." }
+      { "type": "read", "text": "Pesanti travi sostengono il soffitto di questa grande stanza, la cui parete esterna è curva per seguire la forma della torre. Una luce fioca filtra nella stanza attraverso i riquadri del reticolo d'acciaio di due finestre di vetro piombato. Diversi tavoli sono disposti per la stanza, appesantiti da pile di barattoli e bottiglie di vetro, tutti recanti etichette." },
+      { "type": "dm",   "text": "I contenitori di vetro etichettati contengono vari elementi che le streghe usano nei loro malvagi intrugli e rituali. Le etichette identificano oggetti come «Occhio di tritone», «Pelo di pipistrello», «Cuori di lumaca» e «Respiro di rana». Tra le bottiglie e i barattoli non ci sono pozioni magiche." },
+      { "type": "dm",   "text": "Le finestre piombate sono dotate di cardini di ferro e possono essere aperte. Al momento sono bloccate dall'interno. Se un personaggio apre una finestra e la lascia aperta, c'è una probabilità del 50% che una progenie vampirica che striscia lungo la parete esterna della torre noti la finestra aperta e vada a indagare." },
+      { "type": "dm",   "text": "I personaggi che perquisiscono la stanza individuano numerose impronte di stivali nella polvere, oltre a una breve scia nella polvere sul pavimento, che va dall'angolo nord-est della stanza fino alla porta più a est. Sembra che qualcosa di pesante sia stato trascinato sul pavimento verso la porta." },
+      { "type": "dm",   "text": "Nell'angolo nord-est del pavimento c'è una botola segreta. Grazie alla scia nella polvere, la botola può essere trovata senza una prova di caratteristica. Bussare o picchiettare tre volte sulla botola libera un fermo nascosto, facendola aprire verso il basso. Sotto si trova l'area K51. (Non c'è alcuna prova di caratteristica che permetta ai personaggi di scoprire il trucco per aprire la porta. Possono ottenere quell'informazione dalle streghe, o magari usando un incantesimo di divinazione o una magia simile.)" }
     ]
   },
   "K56": {
     "title": "Calderone",
     "sections": [
-      { "type": "dm",   "text": "I personaggi fuori dalla porta sentono un odore pungente. Se le streghe non sono state avvertite, leggi:" },
-      { "type": "read", "text": "Nuvole di vapore verde salgono da un grosso calderone nero al centro di questa stanza buia e opprimente. Intorno al calderone ci sono diverse donne smunte in luridi vestiti neri. Queste streghe siedono curve su alti sgabelli di legno, i capelli arruffati infilati sotto neri cappelli a punta. A turno gettano ingredienti nel calderone, pronunciando letali incantesimi e ridacchiando diabolicamente." },
-      { "type": "dm",   "text": "Le sette streghe baroviane hanno giurato fedeltà a Strahd. Se si aspettano i personaggi, si rendono invisibili e si nascondono negli angoli. Chi pronuncia la parola d'ordine Gorah! attiva il calderone, che scalda magicamente i liquidi per 3 ore." },
+      { "type": "dm",       "text": "I personaggi che si fermano fuori dalla porta di questa stanza possono sentire un odore pungente provenire dall'interno." },
+      { "type": "dm",       "text": "Se le streghe in questa stanza non sono state avvertite dell'arrivo dei personaggi, questi possono udire le loro orribili risate gracchianti. Se i personaggi aprono leggermente la porta, assistono alla scena descritta di seguito:" },
+      { "type": "read",     "text": "Volute di vapore dal bagliore verde gorgogliano da un grosso calderone nero al centro di questa stanza buia e opprimente. Attorno al calderone ci sono diverse donne emaciate in luride vesti nere. Queste streghe siedono ricurve su alti sgabelli di legno, i capelli arruffati infilati sotto neri cappelli a punta. A turno gettano ingredienti nel calderone, pronunciano malvagie incantazioni e ridono gracchiando come pazze." },
+      { "type": "dm",       "text": "Se le streghe sanno dell'arrivo dei personaggi, leggi invece il testo seguente:" },
+      { "type": "read",     "text": "Volute di vapore dal bagliore verde gorgogliano da un grosso calderone nero al centro di questa stanza buia e opprimente. Attorno al calderone ci sono sette alti sgabelli di legno." },
+      { "type": "dm",       "text": "Le streghe barovie (vedi appendice D) che dimorano in quest'area si sono votate al servizio di Strahd in cambio di potere arcano. Sette streghe sono presenti quando i personaggi arrivano, meno quelle eventualmente incontrate e sconfitte nell'area K50. Se le streghe si aspettano i personaggi, lanciano incantesimi di invisibilità e se ne stanno in silenzio negli angoli della stanza, sperando che il calderone attiri le loro prede all'interno. Sebbene preferiscano attaccare a distanza con i loro incantesimi, possono far crescere artigli magici usando autometamorfosi." },
+      { "type": "dm",       "text": "Quando il calderone viene toccato da qualcuno che pronuncia anche la giusta parola di comando («Gorah!»), riscalda magicamente qualsiasi liquido posto al suo interno e resta caldo per 3 ore, o finché la parola di comando non viene pronunciata di nuovo da qualcuno entro un metro e mezzo dal calderone. Una volta usata questa proprietà del calderone, esso non può essere riattivato fino all'alba successiva." },
+      { "type": "dm",       "text": "Le streghe catturate scambieranno informazioni in cambio della vita e della libertà, e possono essere costrette a rivelare la parola di comando per attivare e disattivare il calderone. Sanno anche come aprire la botola nell'area K55." },
       { "type": "subtitle", "text": "Tesoro" },
-      { "type": "dm",   "text": "Ogni strega ha una pozione di guarigione (30% di probabilità che sia andata a male, diventando velenosa). Dietro al calderone c'è un libro degli incantesimi malvagio (infligge 5 (1d10) danni psichici a chi lo tocca, se non malvagio). Contiene: mani brucianti, charme su persone, sonno, invisibilità, oscurità, scassinare e altri incantesimi di 1°-2° livello." }
+      { "type": "dm",       "text": "Ogni strega porta con sé una pozione di guarigione che ha preparato da sé. C'è una probabilità del 30% che una pozione sia «andata a male», nel qual caso si tratta in realtà di una pozione di veleno." },
+      { "type": "dm",       "text": "Non visibile dall'ingresso c'è un piccolo tavolo dietro il calderone, su cui poggia un libro degli incantesimi aperto, apparentemente sul punto di cadere a pezzi. Il libro è malvagio. Qualsiasi creatura non malvagia che lo tocca o che inizia il proprio turno con il libro in suo possesso subisce 5 (1d10) danni psichici. Il libro contiene i seguenti incantesimi:" },
+      { "type": "dm",       "text": "1° livello: mani brucianti, ammaliare persone, individuazione del magico, trova famiglio, nube di nebbia, armatura magica, protezione dal bene e dal male, raggio di malattia, sonno, risata terribile di Tasha, servitore invisibile, dardo stregato" },
+      { "type": "dm",       "text": "2° livello: autometamorfosi, lucchetto arcano, nube di pugnali, oscurità, ingrandire/ridurre, invisibilità, bussare, passo nebbioso" }
     ]
   },
   "K57": { "title": "Tetto della Torre", "sections": [
@@ -588,10 +607,18 @@
     { "type": "dm",   "text": "Collega le aree K20 e K57. Il vento non è abbastanza forte da far cadere le creature, ma se una creatura subisce danni mentre si trova sul ponte, deve superare un tiro salvezza su Destrezza con CD 10 o cade per 18 m fino al tetto della fortezza." }
   ] },
   "K59": { "title": "Cima della Torre Alta", "sections": [
-    { "type": "read", "text": "La scala a chiocciola termina su un camminamento in pietra largo 1,5 metri che circonda il pozzo. Al centro del piano più alto della torre, un buco del diametro di 4,5 metri scende nelle fredde profondità di Ravenloft. Dal pozzo esce una corrente di aria fredda che vi fa rabbrividire. Varie feritoie sono allineate lungo le pareti della torre e vecchie travi sostengono un tetto ripido a forma di cono. Una trave e parte del tetto sono cadute lasciando un buco da cui potete vedere il cielo tempestoso." },
-    { "type": "dm",   "text": "Il pozzo scende 137 m fino alle catacombe (area K84)." },
+    { "type": "dm",       "text": "Se i personaggi salgono le scale per raggiungere la cima della torre, leggi:" },
+    { "type": "read",     "text": "La scala a chiocciola termina infine in un camminamento di pietra largo un metro e mezzo che circonda il pozzo. Al centro del piano più alto della torre, un foro del diametro di quattro metri e mezzo sprofonda nel freddo cuore di Ravenloft stessa. Aria fredda si precipita su dal pozzo, mandandovi un brivido lungo la schiena. Feritoie rivestono le pareti, e travi consunte sostengono un ripido tetto a forma di cono. Una trave e parte del tetto sono crollate, lasciando un'apertura spalancata sul cielo tempestoso." },
+    { "type": "dm",       "text": "Il foro nel pavimento costituisce l'imboccatura di un pozzo chiuso (area K18a) che scende per 137 metri fino alle catacombe del castello (area K84)." },
     { "type": "subtitle", "text": "Pidlwick II" },
-    { "type": "dm",   "text": "Tra le travi si nasconde Pidlwick II (appendice D). Se trattato con gentilezza → accompagna il gruppo come guida silenziosa. Se maltrattato → spinge un personaggio giù per una scala (TS Destrezza CD 10 o 1d6 danni/3 m di caduta)." }
+    { "type": "dm",       "text": "Nascosto tra le travi del tetto c'è Pidlwick II (vedi appendice D). Un personaggio individua Pidlwick II con un punteggio di Saggezza (Percezione) passiva pari o superiore alla sua prova di Destrezza (Furtività). Se Pidlwick II viene individuato, leggi:" },
+    { "type": "read",     "text": "Qualcosa si annida tra le travi del tetto: un omino piccolo e segaligno, non molto più grande di un bambino. Un lampo gli illumina il volto, dipinto come una zucca intagliata sogghignante." },
+    { "type": "dm",       "text": "Sebbene appaia come un ometto minuto che indossa il trucco sul viso e un costume da giullare, Pidlwick II è in realtà un'effigie meccanica del vero Pidlwick, che giace tumulato nelle catacombe. La vernice scura sul suo volto è fuliggine." },
+    { "type": "dm",       "text": "Se i personaggi vedono Pidlwick II in piena luce, leggi:" },
+    { "type": "read",     "text": "È evidente che non state guardando un ometto, ma una sua caricatura. Questa cosa non è una creatura di carne e ossa, ma un costrutto fatto di cuoio tinto, cucito e avvolto strettamente attorno a un'intelaiatura articolata. Udite il delicato rotolare e ticchettare di ingranaggi." },
+    { "type": "dm",       "text": "Pidlwick II non sa parlare e non ha un volto espressivo, perciò si affida soprattutto a gesti delle mani e semplici disegni per comunicare. Comprende il Comune ma non sa né leggere né scrivere." },
+    { "type": "dm",       "text": "Se i personaggi mostrano gentilezza all'effigie meccanica, questa li accompagna e fa del suo meglio per essere utile e divertente. Conosce il castello e può fare da guida silenziosa." },
+    { "type": "dm",       "text": "Se uno o più personaggi sono sgarbati con Pidlwick II, il suo silenzioso risentimento nei loro confronti cresce, e a un certo punto, quando il gruppo è in cima a una scalinata, spinge giù dalle scale uno dei membri molesti. Il bersaglio deve superare un tiro salvezza su Destrezza con CD 10 o ruzzolare fino in fondo alla scalinata, subendo 1d6 danni contundenti per ogni 3 metri di caduta." }
   ] },
   "K60": { "title": "Cima della Torre Nord", "sections": [
     { "type": "read", "text": "Le scale terminano in una stanza buia e squallida con manette attaccate alle pareti. Al centro della stanza c'è un letto con struttura in legno e cinghie in pelle, ai piedi del quale si trova un forziere in ferro chiuso con un emblema inciso sul coperchio. Una scala in legno porta a una botola sul soffitto. Sottili rivoli d'acqua filtrano dal legno marcio della botola, formando una pozzanghera attorno alla base della scala." },
