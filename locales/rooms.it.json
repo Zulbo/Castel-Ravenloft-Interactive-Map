@@ -758,16 +758,23 @@
   "K73": {
     "title": "Ingresso del Dungeon",
     "sections": [
-      { "type": "read", "text": "Le scale scendono nell'acqua scura e immobile che ricopre il pavimento del corridoio ad arco che si apre davanti a voi. La superficie dell'acqua sembra uno specchio scuro ed è disturbata solo occasionalmente dal ticchettio di una goccia che cade dal soffitto. Sei metri più avanti, due passaggi ad arco a nord e a sud conducono verso il basso. All'interno di entrambi i passaggi si trova una porta di ferro chiusa parzialmente sommersa. Da dietro la porta sud proviene un debole grido di aiuto." },
-      { "type": "dm",   "text": "L'acqua è profonda circa 1 metro. I gradini scendono di altri 60 cm davanti alle porte di ferro (nord → area K74, sud → area K75). Il pavimento nasconde botole sensibili al peso: per ogni 4,5 kg su una botola, 5% di probabilità che si apra. La fossa sotto contiene una trappola con teletrasporto verso una cella di K74 o K75. La botola non si riapre per 24 ore." },
-      { "type": "dm",   "text": "Quando una trappola scatta, i personaggi nella sala vedono un'esplosione di aria e acqua e il compagno scompare istantaneamente. Un vortice si dissolve lentamente dove si trovava." }
+      { "type": "dm",   "text": "Il testo descrittivo seguente presuppone che i personaggi arrivino tramite la scala a est (area K21). Adatta come necessario se i personaggi entrano in questa sala da un'altra direzione." },
+      { "type": "read", "text": "Le scale scendono in acque nere e immobili che riempiono un corridoio ad arco davanti a voi. La superficie dell'acqua è come vetro scuro e specchiante, increspata solo di tanto in tanto dal «ploc» di una goccia che cade dal soffitto. Sei metri più avanti, soglie ad arco conducono verso il basso da ciascun lato del corridoio. In ogni soglia ad arco, una porta di ferro è chiusa e parzialmente sommersa. Udite un debole grido d'aiuto provenire da oltre la porta sud." },
+      { "type": "dm",   "text": "L'acqua nel corridoio è profonda un metro e opaca. I gradini su entrambi i lati del corridoio scendono di altri 60 centimetri prima di terminare alle porte di ferro a nord e a sud." },
+      { "type": "dm",   "text": "Il pavimento sotto l'acqua non è solido come ci si potrebbe aspettare. C'è un percorso sicuro che aggira diverse botole sensibili al peso (vedi il diagramma delle Trappole nell'area K73), ma l'acqua rende impossibile vedere dove si trovano le botole. Per ogni 4,5 chili di peso su una botola, c'è una probabilità del 5% che la botola si apra. La fossa profonda tre metri sotto ogni botola contiene una trappola di teletrasporto magica che si attiva non appena la botola si apre. Qualsiasi creatura di taglia Media o inferiore che si trovi su una botola quando questa si apre precipita nella fossa e viene teletrasportata in una cella dell'area K74 o K75, come indicato dal diagramma." },
+      { "type": "dm",   "text": "Quando un personaggio fa scattare una trappola, gli altri personaggi nel corridoio vedono un'esplosione di aria e acqua schizzare verso l'alto attorno al personaggio che l'ha attivata (l'aria intrappolata nella fossa viene rilasciata all'improvviso quando la botola si apre). Il personaggio che ha fatto scattare la trappola sparisce all'improvviso dalla vista. Un istante dopo, la botola si richiude, lasciando solo un vortice che si dissipa lentamente nell'acqua. Non si riapre finché non sono trascorse 24 ore, momento in cui la sua trappola di teletrasporto si ricarica." },
+      { "type": "dm",   "text": "I personaggi che cadono vittima delle trappole di teletrasporto vengono trasportati in celle del sotterraneo chiuse da sbarre di ferro e sotto un metro e mezzo di acqua salmastra (aree K74 e K75)." }
     ]
   },
   "K74": {
     "title": "Dungeon Nord",
     "sections": [
-      { "type": "read",     "text": "Un soffitto ricoperto di muffa incombe 1 metro sopra la superficie dell'acqua nera e immobile che riempie questo corridoio sotterraneo. L'acqua è profonda 1,5 metri. Su entrambi i lati del corridoio si aprono delle celle di 3 metri per lato chiuse da sbarre di ferro. Una delle celle è scarsamente illuminata." },
-      { "type": "dm",       "text": "8 celle (4 per lato), corridoio lungo 12 m. Luce dalla cella K74h. Serrature: Destrezza CD 20 con arnesi da scasso (svantaggio dall'interno); Forza CD 25 per forzare. Di tanto in tanto Strahd visita il dungeon in forma nebbiosa." }
+      { "type": "dm",   "text": "La porta di ferro arrugginita che collega questa sala all'area K73 è sommersa sotto un metro e mezzo d'acqua e richiede una prova di Forza (Atletica) con CD 10 riuscita per essere aperta." },
+      { "type": "read", "text": "Un soffitto ricoperto di muffa incombe a un metro sopra le acque nere e immobili che riempiono questo corridoio del sotterraneo. L'acqua è profonda un metro e mezzo. Celle di tre metri per lato, i cui ingressi sono sbarrati da inferriate di ferro, rivestono entrambi i lati della sala. Una delle celle è debolmente illuminata." },
+      { "type": "dm",   "text": "Il corridoio è lungo dodici metri. Da esso si diramano otto celle, quattro lungo ciascuna parete. La luce proviene dalla cella K74h." },
+      { "type": "dm",   "text": "Una porta a cardini fatta di sbarre di ferro arrugginite spesse 2,5 centimetri e distanziate 10 centimetri l'una dall'altra, con traverse orizzontali distanziate 15 centimetri, chiude ogni cella. Ogni porta è dotata di una serratura di ferro. Un personaggio che usa arnesi da scasso può tentare di forzare una serratura, cosa che richiede 1 minuto e una prova di Destrezza con CD 20 riuscita. La prova si effettua con svantaggio se il personaggio cerca di forzare la serratura dall'interno della cella. Se la prova fallisce, il personaggio può riprovare." },
+      { "type": "dm",   "text": "Un personaggio può forzare l'apertura di una porta sbarrata usando un'azione e superando una prova di Forza con CD 25." },
+      { "type": "dm",   "text": "Strahd visita il sotterraneo di tanto in tanto per vedere se qualche personaggio è rimasto intrappolato qui. Può entrare in una cella assumendo forma di nebbia." }
     ]
   },
   "K74a": { "title": "Tesoro Dimenticato", "sections": [
@@ -811,13 +818,14 @@
     ]
   },
   "K75a": { "title": "Prigioniero", "sections": [
-    { "type": "read", "text": "Un giovane robusto stringe le sbarre della sua cella sforzandosi di non battere i denti. Indossa vestiti stracciati ed è inzuppato dalla testa ai piedi." },
-    { "type": "dm",   "text": "Emil Toranescu, lupo mannaro (72 hp). Sostiene di essere un abitante di Vallaki inseguito fino al castello da lupi terribili, e supplica i personaggi di salvarlo offrendo aiuto in cambio." },
+    { "type": "read",     "text": "Un giovane uomo robusto stringe le sbarre della sua cella mentre cerca di impedire ai denti di battere. I suoi vestiti sono a brandelli ed è fradicio da capo a piedi." },
+    { "type": "dm",       "text": "L'uomo è Emil Toranescu, un licantropo con 72 punti ferita. Sostiene di essere un abitante di Vallaki, inseguito fino al castello da dei lupi terribili. Implora i personaggi di salvarlo, offrendosi di aiutarli in cambio." },
     { "type": "subtitle", "text": "Emil Toranescu" },
-    { "type": "dm",   "text": "In realtà Strahd lo ha rinchiuso come punizione per uno scisma nel branco (cap. 15). Attacca i personaggi appena ne ha l'occasione — tranne se dichiarano di essere alleati di sua moglie Zuleika (area Z7, cap. 15), nel qual caso cerca di andarsene." }
+    { "type": "dm",       "text": "In verità, Strahd ha rinchiuso Emil qui come punizione per aver causato uno scisma nel suo branco di licantropi (vedi capitolo 15). Ansioso di dimostrare il proprio valore a Strahd, Emil ricompensa i personaggi che lo liberano attaccandoli non appena se ne presenta una buona occasione. Emil non si rivolta contro i personaggi se questi affermano di essere alleati di sua moglie, Zuleika (vedi capitolo 15, area Z7). In tal caso, cerca di lasciare il castello e ricongiungersi a lei, restando con i personaggi solo finché non si presenta un'occasione per andarsene." }
   ] },
   "K75b": { "title": "Tesoro Dimenticato", "sections": [
-    { "type": "dm", "text": "Tesoro. Sparse sul pavimento ci sono 2.100 me goffrate con il profilo di Strahd. Si possono raccogliere cento monete al minuto." }
+    { "type": "dm", "text": "I personaggi che entrano nella cella possono sentire delle monete spostarsi sotto i loro piedi." },
+    { "type": "dm", "text": "Tesoro. Sparse sul pavimento di questa cella ci sono 2.100 me. Le monete recano impresso il profilo del volto di Strahd von Zarovich. Un personaggio può raccogliere cento monete al minuto." }
   ] },
   "K75c": { "title": "Cella Vuota", "sections": [
     { "type": "dm", "text": "Questa cella non contiene nulla di interessante." }
@@ -829,10 +837,12 @@
     { "type": "dm", "text": "Questa cella non contiene nulla di interessante." }
   ] },
   "K75f": { "title": "Mago Morto", "sections": [
-    { "type": "dm", "text": "Figura scheletrica incatenata in veste blu: un mago umano catturato e dissanguato da Strahd. Sul collo sono visibili i segni dei morsi del vampiro." }
+    { "type": "read", "text": "Incatenata alla parete di fondo di questa cella c'è una figura emaciata in una veste blu, le sue braccia segaligne spalancate e la testa china in avanti. Lunghi capelli grigi pendono davanti al volto dell'uomo morto." },
+    { "type": "dm",   "text": "La figura scheletrica è tutto ciò che resta di un mago umano che Strahd catturò e dissanguò lentamente fino alla morte. La carne aderisce ancora alle ossa del mago, e sul suo collo sono visibili i segni delle punture dei canini del vampiro." }
   ] },
   "K75g": { "title": "Bardo Appeso", "sections": [
-    { "type": "dm", "text": "Un uomo pende a testa in giù da una carrucola sul soffitto, le mani legate dietro la schiena e la testa sott'acqua. Strahd lo ha appeso per vedere quanto sarebbe sopravvissuto. È annegato. Sul pavimento c'è una lira frantumata." }
+    { "type": "read", "text": "Conficcata nel soffitto di questa cella c'è una carrucola di ferro arrugginita, attraverso cui passa una corda legata a una delle traverse della porta sbarrata. Appeso a testa in giù alla carrucola c'è un uomo, flaccido e tozzo di corporatura, in un'aderente armatura di cuoio. I suoi stivali sono legati con una corda appena sotto la carrucola, le sue mani carnose sono legate dietro la schiena e la sua testa è sott'acqua. Non si muove." },
+    { "type": "dm",   "text": "Strahd fece appendere al soffitto questo bardo umano come prova per vedere quanto a lungo riuscisse a tenere la testa fuori dall'acqua. L'uomo si indebolì e annegò. Sul pavimento della cella, sotto il cadavere appeso, c'è una lira fracassata." }
   ] },
   "K75h": { "title": "Cella Vuota", "sections": [
     { "type": "dm", "text": "Questa cella non contiene nulla di interessante." }
@@ -855,13 +865,32 @@
   "K78": {
     "title": "Sala del Braciere",
     "sections": [
-      { "type": "read",     "text": "Questa stanza misura 9 metri per lato ed è alta 6, con un soffitto piatto. Un braciere di pietra arde al centro della stanza, ma la sua alta fiamma bianca non produce calore. Sul bordo del braciere sono scolpite sette rientranze a forma di coppa con all'interno pietre sferiche di cristallo colorato, una per ogni colore." },
-      { "type": "dm",       "text": "Due golem di ferro a forma di cavaliere a cavallo sono nelle alcove (non lasciano mai la stanza). Una clessidra sospesa 3 m sopra il braciere ha tutta la sabbia bloccata in cima." },
-      { "type": "dm",       "text": "Gettare una pietra nel braciere cambia il colore della fiamma. Qualsiasi creatura che tocchi la fiamma colorata viene teletrasportata nella destinazione corrispondente. Dopo 5 round la fiamma torna bianca e la pietra riappare sul bordo." },
+      { "type": "read",     "text": "Questa stanza è di nove metri per lato e si eleva fino a un soffitto piatto alto sei metri. Un braciere di pietra arde con violenza al centro della stanza, ma la sua alta fiamma bianca non produce calore. Il bordo del braciere è intagliato con sette incavi a forma di coppa, distanziati in modo uniforme lungo la circonferenza. All'interno di ogni incavo c'è una pietra sferica, grande il doppio di un bulbo oculare umano e fatta di un cristallo colorato. Non ci sono due pietre dello stesso colore." },
+      { "type": "read",     "text": "Sopra la testa, una clessidra con telaio di legno, alta e larga quanto un nano, pende a tre metri sopra il braciere, sospesa al soffitto da spesse catene di ferro. Tutta la sabbia è bloccata nella parte superiore della clessidra, apparentemente incapace di scendere verso il fondo. Inciso in caratteri luminosi sulla base della clessidra c'è un verso in Comune." },
+      { "type": "read",     "text": "Due statue di ferro alte quasi tre metri, raffiguranti cavalieri a cavallo pronti alla carica con le spade sguainate, si ergono in profonde alcove l'una di fronte all'altra. Il braciere si trova tra di loro." },
+      { "type": "dm",       "text": "Le due statue sono golem di ferro. Ogni cavallo con il suo cavaliere è considerato un'unica creatura, e sono inseparabili. I golem non lasceranno la stanza in nessun caso, e attaccano solo a condizioni specifiche (vedi la sezione «Sviluppo» più avanti)." },
+      { "type": "dm",       "text": "La clessidra ha CA 12, 20 punti ferita, immunità ai danni da veleno e psichici, e vulnerabilità ai danni da tuono. Se la clessidra viene ridotta a 0 punti ferita, il suo vetro si infrange, facendo cadere a terra la sabbia al suo interno. La scritta magica sulla base della clessidra recita quanto segue:" },
+      { "type": "read",     "text": "Getta una pietra nel fuoco:" },
+      { "type": "dm",       "text": "Viola conduce alla guglia montana" },
+      { "type": "dm",       "text": "Arancione alla vetta del castello" },
+      { "type": "dm",       "text": "Rosso se è il sapere che cerchi" },
+      { "type": "dm",       "text": "Verde dove le bare si celano" },
+      { "type": "dm",       "text": "Indaco alla sposa del padrone" },
+      { "type": "dm",       "text": "Blu al grembo dell'antica magia" },
+      { "type": "dm",       "text": "Giallo alla tomba del padrone" },
+      { "type": "dm",       "text": "La fiamma del braciere è magica e non emana alcun calore. Un lancio riuscito di dissolvi magie (CD 16) estingue la fiamma per 1 ora. Il fuoco è estinto in modo permanente se il braciere viene distrutto. Il braciere ha CA 17, 25 punti ferita, immunità ai danni da veleno e psichici, e resistenza a tutti gli altri danni." },
+      { "type": "dm",       "text": "Le pietre incastonate nel bordo del braciere sono colorate rispettivamente di rosso, arancione, giallo, verde, blu, indaco e viola. Gettarne una nel braciere fa cambiare la sua fiamma dal bianco al colore della pietra, e la sabbia comincia a scendere nella clessidra. Qualsiasi creatura che tocca la fiamma colorata viene teletrasportata in un luogo all'interno del dominio di Strahd, determinato dal colore:" },
       { "type": "subtitle", "text": "Colore della Fiamma → Destinazione" },
-      { "type": "dm",       "text": "Rosso → Studio (area K37), Arancione → Cima della torre nord (area K60), Giallo → Tomba di Strahd (area K86), Verde → Negozio di bare (cap. 5, area N6f), Blu → Tempio d'Ambra (cap. 13, area X42), Indaco → Abbazia di Santa Markovia (cap. 8, area S17), Viola → Passo Tsolenka (cap. 9, area T4)." },
+      { "type": "dm",       "text": "Rosso → Studio (area K37)" },
+      { "type": "dm",       "text": "Arancione → Cima della torre nord (area K60)" },
+      { "type": "dm",       "text": "Giallo → Tomba di Strahd (area K86)" },
+      { "type": "dm",       "text": "Verde → Bottega del fabbricante di bare (capitolo 5, area N6f)" },
+      { "type": "dm",       "text": "Blu → Tempio d'Ambra (capitolo 13, area X42)" },
+      { "type": "dm",       "text": "Indaco → Abbazia di Santa Markovia (capitolo 8, area S17)" },
+      { "type": "dm",       "text": "Viola → Passo di Tsolenka (capitolo 9, area T4)" },
+      { "type": "dm",       "text": "Dopo 5 round, la sabbia si esaurisce e il colore della fiamma torna bianco. Quando ciò accade, la sabbia ricompare istantaneamente nella parte superiore della clessidra (a patto che la clessidra sia intatta), e la pietra che era stata gettata nel fuoco riappare nel bordo del braciere." },
       { "type": "subtitle", "text": "Sviluppo" },
-      { "type": "dm",       "text": "Se il braciere, la clessidra o un golem vengono attaccati: porte si chiudono e bloccano magicamente (Forza CD 25), golem si animano. Primo round: alito velenoso (due tiri salvezza per creatura). Round successivi: attacco spada + schianto zoccolo. Quando non ci sono più creature, i golem tornano nelle alcove e le porte si sbloccano." }
+      { "type": "dm",       "text": "Se il braciere, la clessidra o uno dei due golem vengono attaccati, le porte della stanza si chiudono di scatto magicamente e si bloccano (a meno che non vengano tenute o incastrate aperte), e i golem si animano e attaccano. Al primo round, i golem riempiono la stanza con il loro soffio velenoso, che esce dalla bocca dei cavalli. (Ogni creatura nella stanza deve effettuare due tiri salvezza, uno per ciascun soffio.) Nei round successivi, ogni golem effettua un attacco con la spada e un attacco di travolgimento con lo zoccolo. Quando nella stanza non restano creature da combattere, i golem tornano nelle loro alcove e le porte si sbloccano. Forzare l'apertura di una porta bloccata richiede una prova di Forza (Atletica) con CD 25 riuscita. Ogni porta ha CA 15, 25 punti ferita e immunità ai danni da veleno e psichici." }
     ]
   },
   "K79": {
@@ -879,15 +908,19 @@
   "K80": {
     "title": "Scala Centrale",
     "sections": [
-      { "type": "read", "text": "La porta si apre scricchiolando rivelando una scala di pietra racchiusa tra pareti in muratura grezza. C'è poca polvere sui gradini, ma una leggera nebbia si propaga dai gradini in alto." },
-      { "type": "dm",   "text": "Le scale scendono per 6 m orizzontali (45°) e collegano l'area K78 e l'area K81." }
+      { "type": "dm",   "text": "Se i personaggi entrano in quest'area attraverso la porta in fondo alle scale, leggi:" },
+      { "type": "read", "text": "La porta si apre cigolando rivelando una scalinata di pietra tra ruvide pareti in muratura. C'è poca polvere sui gradini, ma una leggera nebbia scende rotolando dall'alto." },
+      { "type": "dm",   "text": "Se i personaggi entrano in quest'area in cima alla scalinata, leggi:" },
+      { "type": "read", "text": "Il corridoio scavato grezzamente termina in una scalinata di pietra che scende verso sud. Fiancheggiate da pareti di ruvida muratura e relativamente prive di polvere, queste scale scendono prima di terminare in una porta solitaria." },
+      { "type": "dm",   "text": "Le scale hanno una pendenza di 45 gradi per una distanza di sei metri in orizzontale, collegando le aree K78 e K81." }
     ]
   },
   "K81": {
     "title": "Tunnel",
     "sections": [
-      { "type": "read", "text": "Questo tunnel è scavato nella pietra del Pilastro di Ravenloft. La sua superficie è liscia e il soffitto è alto appena 1,8 metri. Una nebbia persistente limita la visibilità a pochi metri." },
-      { "type": "dm",   "text": "Passaggio relativamente recente rispetto al resto del castello. Lungo 36 m, termina con una porta di pietra a est. A metà percorso c'è una botola nascosta dalla nebbia (Percezione CD 20 con ricerca attiva). Si apre con 45+ kg di peso sopra e scarica nella cella K74e tramite lo scivolo (area K82)." }
+      { "type": "read", "text": "Questo tunnel è scavato nel Pilastro di Ravenloft stesso. La sua superficie è viscida, e il suo soffitto è alto a malapena un metro e ottanta. Una nebbia persistente limita la visibilità a pochi metri." },
+      { "type": "dm",   "text": "I personaggi che hanno conoscenza del taglio della pietra possono capire che questo passaggio è una costruzione relativamente recente rispetto ad altre aree di Ravenloft. Il tunnel è lungo circa 37 metri, con una porta di pietra alla sua estremità orientale." },
+      { "type": "dm",   "text": "Vicino al punto centrale del tunnel c'è una botola nascosta sotto uno strato di nebbia. I personaggi non possono individuare la botola passivamente, ma una ricerca attiva accompagnata da una prova di Saggezza (Percezione) con CD 20 riuscita la localizza. A meno che la botola non sia fissata con un chiodo di ferro o in qualche altro modo, si apre quando vi viene posto un peso di 45 chili o più. Quando la botola si apre, tutti coloro che vi si trovano sopra scivolano nello scivolo di marmo sottostante (area K82). La botola si ripristina poi." }
     ]
   },
   "K82": {
@@ -912,12 +945,20 @@
     { "type": "dm",       "text": "L'arazzo raffigura re Barov, padre di Strahd. Pesa 4,5 kg e vale 750 mo se intatto. Se danneggiato mentre è in possesso del gruppo, non ha valore a meno che non venga riparato." }
   ] },
   "K84": { "title": "Catacombe", "sections": [
-    { "type": "read", "text": "Sepolte in profondità sotto il mastio di Ravenloft si trovano antiche catacombe con soffitti a volta sostenuti da colonne larghe e vuote che fungono da cripte. Le ragnatele penzolano nell'aria ammuffita. Una fitta nebbia aleggia sul pavimento, che è ricoperto da rifiuti putridi. Il soffitto nero si muove." },
-    { "type": "dm",   "text": "Le catacombe riempiono un'area di circa 33,5 m × 55 m, con corridoi a volta larghi 3 m che passano accanto a cripte quadrate di 3 m per lato. Cinque vie d'accesso: porta accanto alla cripta 1 (area K81), arco a nord (K85), arco a sud (K86, sorvegliato da trappole teletrasporto), arco a est (K87), scala torre alta (K18) o pozzo (K18a) a ovest. Ogni cripta è sigillata da una lastra di pietra (CD 15 Forza per rimuovere o riattaccare). Decine di migliaia di pipistrelli stanno qui di giorno; non attaccano a meno che provocati o ordinato da Strahd. Se pipistrelli in un'area 3×3 m vengono attaccati → 2d4 stormi di pipistrelli." },
-    { "type": "subtitle", "text": "Trappole con Teletrasporto" },
-    { "type": "dm",   "text": "Trappole teletrasporto invisibili tra cripte 37 e 38 e presso il muro a sud — proteggono l'accesso a K86. Individuabili solo con individuazione del magico (aura evocazione). Non disattivabili, ma Dissolvi Magie CD 16 le sopprime 1 minuto. Qualsiasi creatura che vi entra viene teletrasportata al posto di un wight nella cripta 14; il wight appare nella posizione occupata dalla creatura e attacca." },
-    { "type": "subtitle", "text": "Cripte" },
-    { "type": "dm",   "text": "Le catacombe contengono 40 cripte individuali, ciascuna sigillata da una lastra con l'epitaffio del defunto. Sono punti di interesse distinti sulla mappa (cripta 1–40)." }
+    { "type": "read",     "text": "Sepolte in profondità sotto il mastio di Ravenloft giacciono antiche catacombe, con soffitti ad arco sostenuti da ampie colonne cave che fungono anche da cripte. Le ragnatele pendono molli nell'aria stantia. Una fitta nebbia aderisce al pavimento, che è coperto di rifiuti putridi. Il soffitto nero si sta muovendo." },
+    { "type": "dm",       "text": "Le catacombe occupano un'area di circa 34 metri da est a ovest per 55 metri da nord a sud, e il pavimento è coperto da diversi centimetri di guano di pipistrello. Le catacombe sono costituite da camminamenti ad arco larghi tre metri che corrono tra cripte di tre metri per lato, le quali fungono da pilastri che sostengono il soffitto alto sei metri. L'area ha cinque vie di entrata e uscita:" },
+    { "type": "dm",       "text": "La porta adiacente alla cripta 1 (che collega con l'area K81)" },
+    { "type": "dm",       "text": "Un'arcata sbarrata a nord (che collega con l'area K85)" },
+    { "type": "dm",       "text": "Un'arcata sbarrata a sud (che collega con l'area K86, ma protetta da trappole di teletrasporto)" },
+    { "type": "dm",       "text": "Un'arcata sbarrata a est (che collega con l'area K87)" },
+    { "type": "dm",       "text": "La scala della torre alta (area K18) o il pozzo (area K18a) a ovest" },
+    { "type": "dm",       "text": "Ogni cripta è sigillata con una «porta» di pietra scolpita — in realtà una lastra di pietra ben aderente, larga 90 centimetri, alta un metro e mezzo e spessa circa 8 centimetri. Rimuovere o rimettere a posto una lastra di pietra richiede un'azione e una prova di Forza con CD 15 riuscita." },
+    { "type": "dm",       "text": "Ogni cripta custodisce i resti della persona o delle persone il cui epitaffio è inciso sul fronte della lastra. Le cripte sono descritte nelle sezioni seguenti, con i loro epitaffi riportati in corsivo sotto il numero della cripta." },
+    { "type": "dm",       "text": "Salvo diversa indicazione, ogni cripta contiene un catafalco rettangolare di marmo di circa un metro per due, alto un metro, con sopra uno scheletro avvolto in stracci." },
+    { "type": "dm",       "text": "Le catacombe sono la dimora di decine di migliaia di pipistrelli. I pipistrelli si appendono qui durante le ore diurne e volano fuori la sera attraverso il pozzo centrale della torre alta (area K18a) per cacciare di notte. Non attaccano gli intrusi a meno che non vengano provocati o specificamente comandati di farlo da Strahd. Se uno o più pipistrelli entro un quadrato di tre metri sulla mappa vengono attaccati o presi nell'area di un incantesimo dannoso, in quell'area si formano 2d4 sciami di pipistrelli che attaccano. Non possono formarsi altri sciami in quel quadrato fino all'alba successiva, quando arrivano altri pipistrelli a rimpiazzare quelli uccisi." },
+    { "type": "subtitle", "text": "Trappole di Teletrasporto" },
+    { "type": "dm",       "text": "Trappole di teletrasporto invisibili si trovano tra le cripte 37 e 38, tra la cripta 37 e il muro a sud di essa, e tra la cripta 38 e il muro a sud di essa. Le trappole non possono essere percepite se non con un incantesimo individuazione del magico, che rivela un'aura di magia da evocazione nelle aree intrappolate. Sebbene le trappole non possano essere disarmate, un lancio riuscito di dissolvi magie (CD 16) su una trappola ne sopprime la magia per 1 minuto, permettendo ai personaggi di attraversarne l'area in sicurezza. Una trappola è soppressa anche mentre si trova interamente o parzialmente nell'area di un campo antimagia." },
+    { "type": "dm",       "text": "Queste trappole di teletrasporto formano un anello protettivo attorno all'ingresso della tomba di Strahd (area K86). Qualsiasi creatura che entra in uno di questi spazi di tre metri per lato viene teletrasportata istantaneamente via, scambiando il posto con uno dei wight nella cripta 14. Il wight si materializza nella posizione precedente della creatura e attacca qualsiasi creatura vivente veda." }
   ] },
   "Crypt1": { "title": "Cripta 1", "sections": [
     { "type": "tombstone", "text": "Qui giacciono coloro che percorrono il sentiero del dolore e del tormento" },
@@ -1169,16 +1210,22 @@
     { "type": "dm",   "text": "Se la lettura delle carte rivela che qui c'è un tesoro, si trova nella bara accanto al corpo di Sergei. Se indica un incontro con Strahd, lo trovano chino sulla bara di Sergei, in lacrime." }
   ] },
   "K86": { "title": "Tomba di Strahd", "sections": [
-    { "type": "dm",   "text": "Pesante saracinesca: CD 25 Forza per sollevare. Leva di ferro sul muro nord. 3 progenie vampiriche (spose) sottoterra accanto alla parete est — si alzano per attaccare chi si avvicina alla bara." },
-    { "type": "read", "text": "Gradini di marmo nero scendono in una tomba buia con un soffitto a volta di 9 metri. L'essenza del male permea l'aria stessa oltre a un odore di terra smossa di recente. Adagiata sul terriccio c'è una bara nera e lucente in legno cerato. Le finiture della bara sono di ottone brillante e il coperchio è chiuso. A sud della bara ci sono tre cupe alcove." },
-    { "type": "subtitle", "text": "Alcove con Teletrasporto" },
-    { "type": "dm",   "text": "Alcova est e ovest: forti aure magia d'evocazione. Alcova centrale: non magica. Alcova occidentale → teletrasporto alla cripta 32 (K84), alcova occidentale. Alcova orientale: nessun effetto, ma creature da cripta 32 (alcova orientale) appaiono qui." },
+    { "type": "dm",       "text": "Una pesante saracinesca è chiusa nell'arcata che conduce a questa tomba. Sollevarla richiede una prova di Forza con CD 25 riuscita." },
+    { "type": "read",     "text": "Gradini di marmo nero scendono verso una tomba buia che ha un soffitto a volta a nove metri d'altezza. L'essenza del male permea l'aria stessa. Qui c'è odore di terra appena smossa. Affondata nella terra del pavimento c'è una lucente bara nera di legno finemente cerato. Le finiture della bara sono di brillante ottone, e il coperchio è chiuso. A sud della bara ci sono tre cupe alcove. Una leva di ferro sporge dalla parete nord, a est dell'ingresso della tomba." },
+    { "type": "dm",       "text": "Alzare la leva solleva la saracinesca in cima alle scale. Abbassarla fa calare la saracinesca." },
+    { "type": "dm",       "text": "Sotto la terra, vicino alla parete est della tomba, giacciono tre spose progenie vampiriche vestite di abiti insudiciati e con indosso gioielli incrostati di terra (vedi «Tesoro» più avanti). Si alzano per attaccare chiunque si avvicini alla bara di Strahd." },
+    { "type": "dm",       "text": "Un incantesimo individuazione del magico rivela che le alcove occidentale e orientale irradiano forti aure di magia da evocazione. L'alcova centrale è non magica." },
+    { "type": "dm",       "text": "Le creature che entrano nell'alcova occidentale vengono teletrasportate istantaneamente nell'alcova occidentale della cripta 32 nell'area K84. Entrare nell'alcova orientale non ha alcun effetto, ma qualsiasi creatura che si teletrasporta dall'alcova orientale della cripta 32 appare qui." },
     { "type": "subtitle", "text": "Tesoro" },
-    { "type": "dm",   "text": "Strahd ha elargito molti bei doni alle sue tre spose. Ludmilla Vilisevic: tiara d'oro 750 mo, 10 braccialetti d'oro 100 mo cad. — Anastrasya Karelova: velo ricamato con gemme 750 mo, collana platino con opale nero 1.500 mo — Volenta Popofsky: maschera platino a teschio 750 mo, 10 anelli platino 250 mo cad." },
+    { "type": "dm",       "text": "Strahd ha elargito molti doni pregiati alle sue tre spose." },
+    { "type": "dm",       "text": "Ludmilla Vilisevic indossa un sudicio abito da sposa bianco, una tiara d'oro (del valore di 750 mo) e dieci bracciali d'oro (del valore di 100 mo ciascuno)." },
+    { "type": "dm",       "text": "Anastrasya Karelova indossa un abito da sposa rosso, macchiato e lacero, un foulard di seta nero e cremisi cucito con gemme preziose (del valore di 750 mo) e una collana di platino con un ciondolo di opale nero (del valore di 1.500 mo)." },
+    { "type": "dm",       "text": "Volenta Popofsky indossa un abito da sposa dorato e sbiadito, una maschera di platino vagamente a forma di teschio (750 mo) e dieci anelli di platino con gemme incastonate (del valore di 250 mo ciascuno)." },
     { "type": "subtitle", "text": "Destinazione del Teletrasporto" },
-    { "type": "dm",   "text": "I personaggi che si teletrasportano in questa posizione dall'area K78 arrivano ai piedi della scala, dentro la tomba." },
+    { "type": "dm",       "text": "I personaggi che si teletrasportano in questo luogo dall'area K78 arrivano in fondo alle scale, appena dentro la tomba." },
     { "type": "subtitle", "text": "Sorti di Ravenloft" },
-    { "type": "dm",   "text": "Se la lettura delle carte rivela che qui c'è un tesoro, si trova nell'alcova centrale. Se indica un incontro con Strahd, è nella sua bara, pronto ad attaccare chiunque apra il coperchio." }
+    { "type": "dm",       "text": "Se la lettura delle carte rivela che qui c'è un tesoro, esso giace nell'alcova centrale." },
+    { "type": "dm",       "text": "Se la lettura delle carte indica un incontro con Strahd in quest'area, egli è nella sua bara, pronto ad attaccare chiunque ne apra il coperchio." }
   ] },
   "K87": { "title": "Guardiani", "sections": [
     { "type": "read", "text": "Ampi gradini scendono fino a un pianerottolo fiancheggiato da due alcove. All'interno di ogni alcova c'è una statua di bronzo di un guerriero con una lancia in mano. Le statue sono alte 9 metri, come il soffitto. Una morbida coltre di luce blu fluttua tra le due alcove. Appena visibili dall'altro lato della coltre di luce, le scale continuano a scendere verso il basso." },
