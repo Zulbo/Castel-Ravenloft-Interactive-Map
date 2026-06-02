@@ -362,72 +362,111 @@
   "K36": {
     "title": "Sala da pranzo del Conte",
     "sections": [
-      { "type": "read", "text": "La polvere vi invade i polmoni. Un odore dolce ma pungente di putrefazione riempie questa stanza, al centro della quale si trova un lungo tavolo in legno di quercia. Una coltre di polvere ricopre il piano del tavolo e le sue raffinate porcellane e argenterie. Al centro del tavolo, una grande torta a più strati pende pericolosamente da un lato. La glassa una volta bianca è diventata verde. Su un supporto vicino alla finestra c'è un liuto polveroso e nell'angolo sud-ovest si erge un'alta arpa silenziosa avvolta da ragnatele." },
-      { "type": "dm",   "text": "La torta nuziale ha più di quattro secoli. La statuetta dello sposo è stata gettata sul pavimento molto tempo fa. Se un personaggio esamina il pavimento impolverato, può trovare la statuetta superando una prova di Saggezza (Percezione) con CD 10." },
-      { "type": "dm",   "text": "Se i personaggi portano la statuetta dello sposo fuori dalla stanza e poi tornano, leggi:" },
-      { "type": "read", "text": "Le tende svolazzanti attirano i vostri sguardi verso la finestra, che è stata rotta dall'interno verso l'esterno. Pezzi di torta ammuffita sono sparsi per tutto il pavimento, come se qualcosa fosse uscito dal suo interno, facendola esplodere." },
-      { "type": "dm",   "text": "La stanza ha porte di legno nelle pareti nord e ovest e una porta d'acciaio decorata nella parete est (area K35). L'arpa è alta circa 2 metri, pesa circa 136 kg ed è realizzata in legno scuro scolpito con immagini di cervi e rose." },
-      { "type": "dm",   "text": "Se un personaggio suona l'arpa e supera una prova di Carisma (Intrattenere) con CD 15, evoca il fantasma di Pidlwick. Il giullare promette un tesoro nella sua cripta sotto il castello. Se gli viene chiesto come è morto risponde senza umorismo: sono caduto dalle scale. Se Pidlwick II (area K59) è con il gruppo, il fantasma accusa l'effigie: lui mi ha spinto giù per le scale." },
+      { "type": "read",     "text": "La polvere vi aggredisce i polmoni. Un odore dolciastro ma pungente di putrefazione riempie questa stanza, al centro della quale si erge un lungo tavolo di quercia. Una coltre di polvere ricopre il piano del tavolo con le sue porcellane pregiate e l'argenteria. Al centro del tavolo, una grande torta a più piani pende pesantemente da un lato. La glassa un tempo bianca è diventata verde con il passare del tempo. Le ragnatele pendono come pizzo polveroso lungo ogni lato della torta. Una singola statuina raffigurante una donna ben vestita adorna la sommità della torta. Sospeso al di sopra c'è un lampadario di ferro battuto avvolto nelle ragnatele. Una finestra ad arco nella parete sud è drappeggiata di pesanti tende. Appoggiato su un supporto di legno accanto alla finestra c'è un liuto polveroso, e nell'angolo sud-ovest se ne sta silenziosa un'alta arpa avvolta nelle ragnatele." },
+      { "type": "dm",       "text": "La torta nuziale ha più di quattro secoli, mantenuta nel suo attuale stato di putrefazione dalla volontà di Strahd. La statuina dello sposo, un tempo in cima alla torta, è stata gettata sul pavimento molto tempo fa. Un personaggio che perquisisce il pavimento polveroso trova la statuina con una prova di Saggezza (Percezione) con CD 10 riuscita." },
+      { "type": "dm",       "text": "Se i personaggi portano via dalla stanza la statuina dello sposo, leggi quanto segue qualora vi facciano ritorno in un secondo momento:" },
+      { "type": "read",     "text": "Le tende svolazzanti attirano il vostro sguardo verso la finestra, che è stata sfondata verso l'esterno. Sparsi sul pavimento ci sono pezzi della torta ammuffita, come se qualcosa ne fosse esploso fuori." },
+      { "type": "dm",       "text": "Ci sono due spiegazioni per la torta esplosa e la finestra rotta. Scegli quella che ritieni più inquietante:" },
+      { "type": "dm",       "text": "Strahd distrugge la torta e rompe la finestra per far credere ai personaggi che qualcosa di terribile sia fuggito e ora dia loro la caccia." },
+      { "type": "dm",       "text": "L'odio di Strahd assume una forma corporea, esplode fuori dalla torta (il simbolo dell'amore tra Sergei e Tatyana) e fugge dalla finestra. «L'odio di Strahd» usa le statistiche di un cacciatore invisibile e cerca di uccidere il personaggio che porta con sé la statuina dello sposo." },
+      { "type": "dm",       "text": "La stanza ha porte di legno nelle pareti nord e ovest, e una porta d'acciaio ornata nella parete est (vedi area K35 per i dettagli)." },
+      { "type": "dm",       "text": "L'arpa è alta circa due metri, pesa quasi 135 chili ed è fatta di legno scuro e laccato, intagliato con immagini di cervi e rose. Le sue corde tese sono di budello." },
+      { "type": "dm",       "text": "Un personaggio che suona l'arpa e supera una prova di Carisma (Intrattenere) con CD 15 suona abbastanza bene da evocare il fantasma di Pidlwick, un omino basso vestito da giullare, con un campanellino tintinnante all'estremità del suo cappello a punta. Chiede: «Perché mi avete evocato dall'oltretomba?». Qualunque sia la risposta, si complimenta con il personaggio per la bella esecuzione e dice: «Nella mia cripta sotto il castello troverai un tesoro degno di un talento come il tuo! Possa esserti d'aiuto nel dare pace a questo luogo tormentato». Se i personaggi pensano di chiedergli chi sia, il giullare risponde: «Pidlwick». Se gli chiedono come sia morto, risponde senza ironia: «Sono caduto dalle scale». Se Pidlwick II (vedi area K59) è con il gruppo, il fantasma indica l'effigie meccanica e dice: «Lui mi ha spinto giù dalle scale»." },
+      { "type": "dm",       "text": "Non avendo altro da aggiungere, il fantasma di Pidlwick svanisce e non riappare più. Se i personaggi attaccano il fantasma, questo li attacca a sua volta." },
       { "type": "subtitle", "text": "Tesoro" },
-      { "type": "dm",   "text": "Il liuto sopravvissuto al passare dei secoli è uno strumento dei bardi magico chiamato Liuto di Doss." }
+      { "type": "dm",       "text": "Il liuto, benché vecchio e coperto di polvere, è sopravvissuto al passare del tempo. È uno strumento magico dei bardi chiamato liuto di Doss." }
     ]
   },
   "K37": {
     "title": "Studio",
     "sections": [
-      { "type": "read", "text": "Un fuoco ardente nel caminetto riempie questa stanza con una luce rossa e ambrata un po' tremolante. Le pareti sono rivestite di libri e tomi antichi con copertine in cuoio ben oliate. Al centro della stanza c'è un grande tavolo basso, cerato e lucidato. Grandi divani imbottiti e due sedie in legno bordeaux sono rivolti verso il caminetto, al di sopra del quale è appeso un enorme dipinto. La donna raffigurata è identica a Ireena Kolyana." },
-      { "type": "dm",   "text": "Il dipinto sopra il camino raffigura Tatyana, una bellissima giovane donna con i capelli ramati. Strahd ha commissionato il dipinto più di quattro secoli fa." },
-      { "type": "dm",   "text": "La parete di fondo del camino contiene una porta segreta, aperta sollevando l'attizzatoio dal suo supporto (il fuoco deve essere spento prima). La porta segreta dà accesso all'area K38." },
+      { "type": "read",     "text": "Il fuoco scoppiettante di un camino riempie questa stanza di ondeggianti onde di luce rossa e ambrata. Le pareti sono rivestite di libri e tomi antichi, le cui copertine di pelle sono ben oliate e conservate grazie a un uso attento. Qui tutto è in ordine. Il pavimento di pietra è nascosto sotto un tappeto spesso e lussuoso. Al centro della stanza c'è un grande tavolo basso, cerato e lucidato fino a sembrare uno specchio. Persino l'attizzatoio nel suo supporto accanto al camino acceso è lucidato. Grandi divani e poltrone imbottite sono disposti per la stanza. Due sedie di legno color borgogna, con sedute in pelle imbottita e cuscini per lo schienale, sono rivolte verso il camino. Un enorme dipinto è appeso sopra la mensola del camino in una pesante cornice dorata. La luce ondeggiante del fuoco illumina il ritratto, reso con cura. È l'esatta somiglianza di Ireena Kolyana." },
+      { "type": "dm",       "text": "Questa camera ha diverse uscite, tra cui una grande serie di doppie porte nella parete ovest, una porta a ciascuna estremità della parete nord e una porta a sud." },
+      { "type": "dm",       "text": "Il dipinto sopra il camino raffigura Tatyana, una bellissima giovane donna dai capelli ramati. Strahd commissionò il dipinto oltre quattro secoli fa per impressionare la sua amata. Il fatto che Ireena Kolyana sia identica a Tatyana è per Strahd la prova che entrambe le donne nacquero con la stessa anima." },
+      { "type": "dm",       "text": "La parete di fondo del camino contiene una porta segreta, che si apre sollevando l'attizzatoio dal suo supporto. Il fuoco deve essere spento perché chiunque possa raggiungere la porta segreta in sicurezza. In caso contrario, una creatura che entra nel camino per la prima volta in un turno, o che vi inizia il proprio turno, subisce 5 (1d10) danni da fuoco e prende fuoco. Finché qualcuno non usa un'azione per spegnere le fiamme sulla creatura, questa subisce 5 (1d10) danni da fuoco all'inizio di ciascuno dei suoi turni. (Questi danni da fuoco si sommano a quelli del trovarsi nel camino.)" },
+      { "type": "dm",       "text": "La porta segreta dà accesso all'area K38." },
       { "type": "subtitle", "text": "Tesoro" },
-      { "type": "dm",   "text": "Il vero tesoro è la collezione di libri di Strahd, oltre mille tomi unici per un valore totale di 80.000 mo. Tira un d12: 1 Antologia di poesie, 2 Bestiario di creature bizzarre, 3 Biografia di un re dimenticato, 4 Guida ai vini pregiati, 5 Libro di araldica, 6 Libro di ricette esotiche, 7 Libro di strategia militare, 8 Romanzo epico, 9 Testo eretico, 10 Testo storico, 11 Testo teologico, 12 Tomo dell'alchimista." },
+      { "type": "dm",       "text": "Il vero tesoro qui è la collezione di libri di Strahd: oltre mille tomi unici in tutto. La collezione vale 80.000 mo. Trasportarla sarebbe un'impresa." },
+      { "type": "dm",       "text": "Tira un d12 e consulta la tabella seguente per determinare l'argomento di un libro scelto a caso." },
+      { "type": "dm",       "text": "d12 — Libro" },
+      { "type": "dm",       "text": "1 — Tomo di un alchimista" },
+      { "type": "dm",       "text": "2 — Bestiario di bestie bizzarre" },
+      { "type": "dm",       "text": "3 — Biografia di un re o di una regina dimenticati" },
+      { "type": "dm",       "text": "4 — Libro di ricette esotiche" },
+      { "type": "dm",       "text": "5 — Libro di araldica" },
+      { "type": "dm",       "text": "6 — Libro di strategia militare" },
+      { "type": "dm",       "text": "7 — Romanzo epico" },
+      { "type": "dm",       "text": "8 — Guida ai vini pregiati" },
+      { "type": "dm",       "text": "9 — Testo eretico" },
+      { "type": "dm",       "text": "10 — Testo storico" },
+      { "type": "dm",       "text": "11 — Antologia di poesie" },
+      { "type": "dm",       "text": "12 — Testo teologico" },
       { "type": "subtitle", "text": "Destinazione del Teletrasporto" },
-      { "type": "dm",   "text": "I personaggi che si teletrasportano in questa posizione dall'area K78 arrivano davanti al dipinto di Tatyana." },
-      { "type": "subtitle", "text": "Le sorti di Ravenloft" },
-      { "type": "dm",   "text": "Se la lettura delle carte rivela che qui c'è un tesoro, si trova sulla mensola del camino, sotto al ritratto di Tatyana. Se la lettura delle carte indica un incontro con Strahd, i personaggi lo trovano seduto sulla sedia imbottita." }
+      { "type": "dm",       "text": "I personaggi che si teletrasportano in questo luogo dall'area K78 arrivano davanti al dipinto di Tatyana." },
+      { "type": "subtitle", "text": "Sorti di Ravenloft" },
+      { "type": "dm",       "text": "Se la lettura delle carte rivela che qui c'è un tesoro, esso si trova sulla mensola del camino sotto il ritratto di Tatyana." },
+      { "type": "dm",       "text": "Se la lettura delle carte indica un incontro con Strahd in quest'area, egli è seduto all'indietro su una delle poltrone imbottite, con lo sguardo fisso nel fuoco." }
     ]
   },
   "K38": {
     "title": "Falsa tesoreria",
     "sections": [
-      { "type": "read", "text": "La stanza è avvolta dal fumo e sul pavimento si trova un forziere chiuso circondato da pile di monete d'oro, argento e rame. Sulla parete est sono appesi due portatorce: uno regge una torcia con un'intricata base di metallo, l'altro è vuoto. Uno scheletro in armatura a piastre giace contro il muro, con la mano sinistra che stringe la torcia abbinata al candelabro vuoto." },
-      { "type": "dm",   "text": "Le monete sparse valgono un totale di 50 mo, 100 ma e 2.000 mr. Quando il forziere viene aperto, rilascia una nuvola di gas narcotico (tiro salvezza su Costituzione CD 18 o paralizzati per 4 ore). Se tutti i personaggi soccombono, le streghe dell'area K56 li trascinano nell'area K50 e li lasciano illesi." },
-      { "type": "subtitle", "text": "Porte segrete" },
-      { "type": "dm",   "text": "La porta segreta a ovest è incastonata nella parete di fondo del camino dell'area K37, aperta sollevando l'attizzatoio. La porta segreta a nord-est si apre quando la torcia viene spostata dalla mano dello scheletro al supporto vuoto, rivelando l'area K39." }
+      { "type": "read",     "text": "Sul pavimento di questa stanza piena di fumo è posato un forziere chiuso, circondato da cumuli di monete d'oro, d'argento e di rame. Le ferramenta e i piedini ad artiglio del forziere testimoniano una grande maestria artigianale." },
+      { "type": "dm",       "text": "Alla parete est sono fissati due supporti per torce. Quello più a sud regge una torcia con un'intricata base di metallo. L'altro è vuoto. Uno scheletro in un'armatura a piastre spezzata giace contro la parete. La mano destra dello scheletro è alla propria gola, mentre la sinistra regge la torcia gemella, quella mancante dal supporto vuoto." },
+      { "type": "dm",       "text": "Le monete sparse attorno al forziere intrappolato ammontano a 50 mo, 100 ma e 2.000 mr. Il forziere pesa circa 18 chili ed è aperto. Quando viene aperto, rilascia una nuvola di gas soporifero che riempie la stanza. Qualsiasi creatura nella stanza deve superare un tiro salvezza su Costituzione con CD 18 o restare paralizzata per 4 ore. Se tutti i personaggi soccombono al gas, vengono trovati dalle streghe che hanno la tana nell'area K56 e trascinati nell'area K50, dove vengono lasciati illesi. Se anche un solo personaggio resiste all'effetto del gas, le streghe non compaiono." },
+      { "type": "dm",       "text": "Lo scheletro corazzato sul pavimento è tutto ciò che resta di un avventuriero. Il suo cadavere non ha nulla di valore." },
+      { "type": "subtitle", "text": "Porte Segrete" },
+      { "type": "dm",       "text": "Questa stanza è nascosta dietro due porte segrete." },
+      { "type": "dm",       "text": "La porta segreta a ovest è incassata nella parete di fondo del camino (area K37) e può essere aperta dall'interno di questa stanza sollevando un semplice meccanismo di blocco (collegato all'attizzatoio dello studio). È possibile che un personaggio apra questa porta segreta inavvertitamente sollevando l'attizzatoio nell'area K37. Per il resto, i personaggi possono individuare la porta segreta normalmente, ma una prova riuscita non rivela il meccanismo per aprirla. Quello può essere trovato solo per tentativi ed errori, oppure i personaggi possono aggirarlo con un incantesimo bussare o una magia simile." },
+      { "type": "dm",       "text": "La porta segreta all'estremità nord della parete est è sigillata. Se la torcia viene tolta dalla mano dello scheletro e rimessa nel supporto vuoto, la porta segreta si apre verso l'interno, rivelando l'area K39 al di là. Togliere la torcia dal supporto in qualsiasi momento fa chiudere e bloccare la porta segreta, che torna sigillata come prima. I personaggi possono individuare questa porta segreta normalmente, ma una prova riuscita non rivela il meccanismo per aprirla. Quello può essere trovato solo per tentativi ed errori, oppure i personaggi possono aggirarlo con un incantesimo bussare o una magia simile." }
     ]
   },
   "K39": {
     "title": "Salone delle ragnatele",
     "sections": [
-      { "type": "read", "text": "Questa antica sala è completamente invasa da ragnatele, a eccezione di un unico percorso ben definito al centro." },
-      { "type": "dm",   "text": "La sala ha un soffitto ad arco alto 6 metri. All'estremità orientale c'è un paio di porte ad arco decorate in bronzo che conducono all'area K40. I personaggi che si allontanano dal percorso rischiano di rimanere bloccati nelle ragnatele di ragno gigante." },
-      { "type": "subtitle", "text": "Porte segrete" },
-      { "type": "dm",   "text": "La porta segreta sul muro ovest può essere aperta da questo lato solo con la magia (area K38). Una stretta porta segreta all'estremità occidentale del muro sud, nascosta dietro ragnatele, conduce all'area K31b." }
+      { "type": "read",     "text": "Questa antica sala è soffocata dalle ragnatele, interrotte da un unico sentiero sgombro che corre lungo il suo centro." },
+      { "type": "dm",       "text": "La sala ha un soffitto a volta a sei metri d'altezza, nascosto dietro spesse ragnatele. All'estremità orientale c'è un paio di porte ad arco in bronzo dal design elaborato. Queste porte possono essere aperte rivelando l'area K40 al di là." },
+      { "type": "dm",       "text": "La maggior parte della sala è piena di ragnatele di ragno gigante (vedi «Pericoli del Dungeon» nel capitolo 5, «Ambienti d'avventura», della Guida del Dungeon Master). I personaggi che si allontanano dal sentiero sgombro tra le ragnatele rischiano di restare intrappolati." },
+      { "type": "subtitle", "text": "Porte Segrete" },
+      { "type": "dm",       "text": "All'estremità ovest della sala ci sono due porte segrete." },
+      { "type": "dm",       "text": "La porta segreta sulla parete ovest non può essere aperta da questo lato, se non con la magia (come un incantesimo bussare). Vedi l'area K38 per maggiori informazioni su questa porta segreta. Se i personaggi la attraversano provenendo dall'area K38, si chiude e si blocca dietro di loro qualora non prendano provvedimenti per tenerla aperta." },
+      { "type": "dm",       "text": "Una stretta porta segreta all'estremità ovest della parete sud è nascosta dietro una massa di ragnatele. Se queste ragnatele vengono rimosse, i personaggi possono cercare la porta segreta e trovarla con una prova di Saggezza (Percezione) con CD 15 riuscita. La porta può essere aperta rivelando l'area K31b." }
     ]
   },
   "K40": {
     "title": "Campanile",
     "sections": [
-      { "type": "read", "text": "Qui l'aria è fredda e umida e potete sentire la tempesta imperversare fuori dal castello. Tende e veli di ragnatele riempiono la stanza. Un unico e stretto sentiero conduce al centro della stanza dove, nel buio, una corda penzola dall'alto." },
-      { "type": "dm",   "text": "La corda è attaccata a una grande campana a 15 metri d'altezza. Se la corda viene tirata, la campana suona e fa cadere cinque ragni giganti che attaccano. All'estremità occidentale della parete nord, nascosta dietro fitte ragnatele, c'è una porta segreta che conduce all'area K41." }
+      { "type": "read", "text": "Potete sentire la pioggia e i tuoni all'esterno, e l'aria qui è fredda e umida. Veli e cortine di ragnatele riempiono la stanza, rendendo difficile valutarne la larghezza e la profondità. Un unico stretto sentiero conduce al centro buio della stanza, dove una corda penzola dall'alto." },
+      { "type": "dm",   "text": "La corda è fissata a una grande campana montata su un'intelaiatura di legno a quindici metri d'altezza. Tirare la corda o tentare di arrampicarcisi produce un lungo e fragoroso «GONG». Quel suono fa calare cinque ragni giganti dalle loro ragnatele all'attacco. I ragni attaccano solo se vengono attaccati o se la campana viene suonata." },
+      { "type": "dm",   "text": "La maggior parte del campanile è piena di ragnatele di ragno gigante (vedi «Pericoli del Dungeon» nel capitolo 5, «Ambienti d'avventura», della Guida del Dungeon Master). I personaggi che vi finiscono dentro per sbaglio rischiano di restare intrappolati." },
+      { "type": "dm",   "text": "All'estremità ovest della parete nord, dietro spesse ragnatele, c'è una porta segreta che si apre sull'area K41." }
     ]
   },
   "K41": {
     "title": "Tesoreria",
     "sections": [
-      { "type": "read", "text": "Questa camera di sicurezza ottagonale è completamente priva di polvere e ragnatele. Sul soffitto a cupola alto 12 metri è dipinto un cielo nero stellato con costellazioni sconosciute. Una torre quadrata di 6 metri per lato e alta 9 metri, con feritoie su tutti i lati e un tetto merlato, troneggia nella stanza." },
-      { "type": "dm",   "text": "Le stelle sono frammenti di cristallo luminoso. La torre è una fortezza istantanea di Daern. Solo Strahd conosce la parola d'ordine. I personaggi che assumono forma gassosa possono entrare attraverso le feritoie." },
+      { "type": "read",     "text": "Questo caveau ottagonale è privo di polvere e ragnatele. Il soffitto a cupola, dodici metri più in alto, è dipinto di nero e scintilla con uno spettacolo di stelle disposte in costellazioni sconosciute. A malapena contenuta in questo caveau c'è una torre quadrata, di sei metri per lato e nove metri d'altezza, con feritoie su tutti i lati e un tetto merlato." },
+      { "type": "dm",       "text": "Il soffitto a cupola è ricoperto di pece secca. Le «stelle» sono schegge di cristallo luminoso incastonate nella pece, ognuna luminosa come la fiamma di una candela. Grazie a questo «cielo notturno» stellato, il caveau è debolmente illuminato." },
+      { "type": "dm",       "text": "Le ricchezze saccheggiate del tesoro segreto di Strahd giacciono all'interno di questa torre di adamantio, che in realtà è una fortezza istantanea di Daern (vedi capitolo 7, «Tesori», della Guida del Dungeon Master). Solo Strahd conosce la parola di comando per alterarne forma e dimensioni, cosa che non è possibile finché ogni singola moneta del tesoro al suo interno non viene rimossa. Solo Strahd può aprire i due punti d'accesso: una porta sigillata di adamantio alla base della torre sul lato nord e una botola di adamantio sul tetto." },
+      { "type": "dm",       "text": "Le feritoie della torre sono larghe 10 centimetri e alte 60 centimetri, e le pareti della fortezza sono spesse circa 8 centimetri. I personaggi in grado di ridurre le proprie dimensioni o di assumere forma gassosa possono entrare nella torre attraverso queste feritoie." },
       { "type": "subtitle", "text": "Tesoro" },
-      { "type": "dm",   "text": "Piano terra: 50.000 mr, 10.000 ma, 10.000 mo, 1.000 mp, 15 gemme (100 mo ciascuna), uno scudo +2 con emblema del Drago d'Argento (conferisce +2 all'iniziativa). Piano superiore: 10 gioielli (250 mo ciascuno), una giara alchemica, un elmo della luminosità, una verga del patto rispettato +1, uno scrigno con quattro pozioni di guarigione maggiore." },
-      { "type": "subtitle", "text": "Le sorti di Ravenloft" },
-      { "type": "dm",   "text": "Se la lettura delle carte rivela che qui c'è un tesoro, si trova sopra le monete al piano terra. Se la lettura delle carte indica un incontro con Strahd, i personaggi lo trovano in cima alla torre." }
+      { "type": "dm",       "text": "Il piano terra della fortezza istantanea di Daern contiene 50.000 mr, 10.000 ma, 10.000 mo, 1.000 mp, 15 gemme assortite (100 mo ciascuna) e uno scudo +2 ornato con un drago d'argento stilizzato, emblema dell'Ordine del Drago d'Argento (vedi capitolo 7). Lo scudo sussurra avvertimenti a chi lo impugna, garantendo un bonus di +2 all'iniziativa se chi lo porta non è incapacitato." },
+      { "type": "dm",       "text": "Il piano superiore della torre contiene 10 gioielli (250 mo ciascuno) in un sacco di velluto rosso, una brocca dell'alchimia, un elmo dello splendore, una verga del custode del patto +1 e un cofanetto di legno aperto con quattro scomparti, ognuno dei quali contiene una pozione di guarigione superiore." },
+      { "type": "subtitle", "text": "Sorti di Ravenloft" },
+      { "type": "dm",       "text": "Se la lettura delle carte rivela che qui c'è un tesoro, esso giace sopra le monete al piano terra all'interno della torre." },
+      { "type": "dm",       "text": "Se la lettura delle carte indica un incontro con Strahd in quest'area, egli è appollaiato in cima alla torre." }
     ]
   },
   "K42": {
     "title": "Camera del re",
     "sections": [
-      { "type": "read", "text": "Dolci odori si diffondono da questa stanza soffusamente illuminata. Una grande finestra ad arco sulla parete ovest è coperta da pesanti tende rosse. Alte candele bianche producono una luce intensa e costante. La testiera di un grande letto drappeggiato con tende di seta si trova addossata contro la parete nord, su di essa è incisa una grande Z. Sotto le lenzuola di raso c'è una giovane donna in camicia da notte." },
-      { "type": "dm",   "text": "La ragazza è Gertruda (popolana umana NB), la figlia di Mary la Matta. Gertruda è stata affascinata da Strahd, che non l'ha ancora morsa ma intende farlo. La finestra si affaccia sul parapetto (area K46)." },
-      { "type": "dm",   "text": "Accanto al letto, nella parete nord, c'è una porta segreta che conduce a una sala polverosa fino a un'altra porta segreta nel retro di un'alcova (area K45). Gertruda non sa dell'esistenza di questa porta." }
+      { "type": "read", "text": "Dolci profumi si diffondono da questa stanza illuminata con delicatezza. Una grande finestra ad arco lungo la parete ovest è coperta da pesanti tendaggi rossi, le cui nappe dorate luccicano alla luce di tre candelabri posati su piccoli tavoli sparsi per la stanza. Alte candele bianche bruciano con una luce intensa e costante." },
+      { "type": "dm",   "text": "Un grande letto, con un baldacchino di tende di seta, è addossato con la testiera alla parete nord. Nella testiera è intagliata con grande maestria una grande «Z». Distesa tra le lenzuola e le coperte di velluto e raso c'è una giovane donna in camicia da notte. Una delle sue delicate pantofole è caduta sul pavimento ai piedi del letto." },
+      { "type": "dm",   "text": "Doppie porte ad arco conducono da questa stanza a sud e a est." },
+      { "type": "dm",   "text": "La finestra è divisa in quattro alti pannelli di vetro, ciascuno racchiuso in un'intelaiatura di piombo. Le due sezioni più esterne hanno piccoli cardini di ferro incorporati così da poter essere aperte, oltre a chiavistelli di ferro per bloccarle in posizione quando sono chiuse. La finestra si affaccia sul camminamento (area K46)." },
+      { "type": "dm",   "text": "La figura sul letto è Gertruda (popolana umana BN), la figlia di Mary la Pazza (vedi capitolo 3, area E3). Gertruda è ignara di qualsiasi pericolo per sé, soprattutto da parte di Strahd, che l'ha ammaliata. Iperprotetta dalla madre, da bambina non le fu mai permesso di lasciare casa. Alla fine sgattaiolò via e si fece strada fino al castello, attratta dalla sua maestosità." },
+      { "type": "dm",   "text": "Gertruda è innocente, e gli anni trascorsi reclusa hanno distorto il suo senso della realtà. Di conseguenza mantiene una visione fiabesca della vita. Di fronte a una decisione, sceglie quasi sempre l'opzione più semplicistica. È ingenua al punto da essere un pericolo per sé e per gli altri. Per sua fortuna, Strahd non l'ha ancora morsa, anche se intende farlo. (E se può farlo mentre i personaggi guardano impotenti, tanto meglio.)" },
+      { "type": "dm",   "text": "Accanto al letto, incassata nella parete nord, c'è una porta segreta. Può essere spinta per aprirsi e rivelare un corridoio polveroso che termina in una porta segreta simile sul fondo di un'alcova (vedi area K45 per i dettagli). Gertruda non sa che questa porta segreta esiste." }
     ]
   },
   "K43": {
@@ -459,8 +498,10 @@
   "K46": {
     "title": "Parapetti",
     "sections": [
-      { "type": "read", "text": "Vi trovate su un camminamento largo tre metri che circonda gran parte del mastio. La pioggerella continua a cadere e ogni tanto un fulmine squarcia il cielo. Molto più in basso, potete vedere i ciottoli bagnati che luccicano nel cortile." },
-      { "type": "dm",   "text": "Il camminamento è collegato alle mura esterne del castello tramite altri camminamenti merlati. Se i personaggi si aggirano lungo i parapetti per più di 5 minuti, incontrano l'armatura animata di Strahd durante i suoi giri di ronda." }
+      { "type": "read", "text": "Vi trovate su un camminamento largo tre metri che circonda gran parte del mastio. La pioggerellina continua a cadere, punteggiata dall'occasionale rombo di tuono o lampo di fulmine. Molto più in basso rispetto a questi camminamenti ci sono i ciottoli bagnati e luccicanti del cortile." },
+      { "type": "dm",   "text": "Il camminamento corre attorno alla parte frontale della porzione superiore del mastio. Camminamenti merlati si estendono anche dal mastio verso nord, sud ed est fino alle mura esterne del castello. (Vedi mappa 2 per la lunghezza e la posizione delle mura del castello.) Tutte le finestre che da quest'area conducono all'interno del mastio sono chiuse e bloccate, ma possono essere facilmente sfondate." },
+      { "type": "dm",   "text": "Se i personaggi indugiano sui camminamenti o in cima alle mura del castello per più di 5 minuti, incontrano l'armatura animata di Strahd (vedi appendice D) che fa il suo giro di ronda. Pattuglia i camminamenti e le mura esterne di Ravenloft giorno e notte. Sotto un cielo oscurato, i personaggi privi di scurovisione hanno più probabilità di sentire il fragore dell'armatura che si avvicina prima di riuscire a vederla." },
+      { "type": "dm",   "text": "L'armatura non può essere recuperata se viene ridotta a 0 punti ferita." }
     ]
   },
   "K47": {
