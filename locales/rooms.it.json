@@ -244,21 +244,26 @@
   "K26": {
     "title": "Posto di guardia",
     "sections": [
-      { "type": "dm",   "text": "Se i personaggi entrano in questa sala da una delle due porte doppie, leggi:" },
-      { "type": "read", "text": "Le porte si aprono per rivelare un'altra serie di doppie porte tre metri più avanti. Tra queste porte, un corridoio largo tre metri si estende da nord a sud. A ciascuna estremità della sala, due scheletri umani in armatura arrugginita e con addosso una livrea lacera delle guardie del castello fluttuano nell'oscurità." },
-      { "type": "dm",   "text": "Gli scheletri «fluttuanti» pendono da chiodi fissati alle pareti nord e sud, tenuti insieme da filo metallico: sono innocui. Dietro lo scheletro sulla parete nord c'è una porta segreta che conduce all'area K33." }
+      { "type": "dm",   "text": "Se i personaggi entrano in questa sala attraverso una delle due serie di doppie porte, leggi:" },
+      { "type": "read", "text": "Le porte si aprono rivelando un'altra serie di doppie porte tre metri più avanti. Tra queste porte, un corridoio largo tre metri si estende da nord a sud. A ciascuna estremità della sala, fluttuante nell'oscurità, c'è uno scheletro umano avvolto nell'armatura arrugginita e nella livrea lacera di una guardia del castello." },
+      { "type": "dm",   "text": "Gli scheletri «fluttuanti» pendono da chiodi sulle pareti nord e sud. Gli scheletri, assemblati da Cyrus Belview (vedi area K62), sono tenuti insieme da filo metallico e sono innocui. Dietro lo scheletro sulla parete nord c'è una porta segreta che può essere spinta per aprirsi sull'area K33." },
+      { "type": "dm",   "text": "Se i personaggi entrano in questa sala attraverso la porta segreta adiacente all'area K33, vedono lo scheletro appeso sul lato interno della porta segreta non appena la tirano per aprirla e, con una fonte di luce o la scurovisione, riescono a vedere anche lo scheletro all'estremità sud della sala." }
     ]
   },
   "K27": {
     "title": "Sala del re",
     "sections": [
-      { "type": "read",     "text": "Il soffitto a volta alto sei metri di questo ambiente è completamente ricoperto di ragnatele. Un lamento sommesso dal tono triste e disperato sembra percorrere a ondate la lunghezza della sala." },
-      { "type": "dm",       "text": "Il lamento è solo il vento. A metà della sala, sul lato sud, c'è una stretta porta segreta che si apre sull'area K31." },
-      { "type": "subtitle", "text": "Volo del vampiro" },
-      { "type": "dm",       "text": "Nascosto in uno scomparto sopra la serie occidentale di doppie porte c'è un manichino in legno identico a Strahd: mantello nero, canini scoperti, braccia e dita artigliate protese in avanti." },
-      { "type": "dm",       "text": "Quando uno o più personaggi raggiungono il centro della sala da una delle due direzioni, leggi:" },
-      { "type": "read",     "text": "Udite un rumore di sfregamento di pietra contro pietra, seguito dallo stridio di un pipistrello. Nella direzione del rumore, vedete un paio di canini affilati, un mantello nero svolazzante e degli artigli protesi verso di voi: un vampiro vi colpisce dall'alto! Una profonda risata gutturale riempie il corridoio." },
-      { "type": "dm",       "text": "Il manichino ha CA 15 e 15 punti ferita, ed è immune ai danni psichici e da veleno. La trappola si ripristina dopo 1 minuto." }
+      { "type": "read",     "text": "Questa sala alta sei metri ha un soffitto scuro a volta drappeggiato di ragnatele. Un lamento sommesso sembra percorrere tutta la lunghezza del corridoio, salendo e scendendo, intonando tristezza e disperazione." },
+      { "type": "dm",       "text": "Il lamento è solo il vento." },
+      { "type": "dm",       "text": "I personaggi che esaminano il soffitto possono, con una prova di Saggezza (Percezione) con CD 20 riuscita, individuare delle pulegge e una corda che corrono per tutta la lunghezza del corridoio lungo il soffitto, ben nascoste dalle ragnatele. Questi elementi sono spiegati in «Volo del Vampiro» più avanti." },
+      { "type": "dm",       "text": "A metà della sala, sul lato sud, c'è una stretta porta segreta che può essere tirata per aprirsi e rivelare l'area K31." },
+      { "type": "subtitle", "text": "Volo del Vampiro" },
+      { "type": "dm",       "text": "Nascosto in uno scomparto sopra la serie occidentale di doppie porte c'è un manichino di legno vestito, identico in tutto e per tutto a Strahd. Indossa un mantello nero, i canini sono scoperti e le braccia e le dita artigliate sono protese in avanti in modo minaccioso. Il manichino è fissato a una corda che scorre attraverso pulegge fissate per tutta la lunghezza del soffitto del corridoio." },
+      { "type": "dm",       "text": "Quando uno o più personaggi raggiungono il punto centrale della sala da una delle due direzioni, leggi:" },
+      { "type": "read",     "text": "Udite un rumore di sfregamento di pietra contro pietra, seguito dallo stridio di un pipistrello. Nella direzione del rumore, vedete il volto dai canini affilati, gli artigli protesi e il mantello nero svolazzante di un vampiro che vi piomba addosso dall'alto! Una profonda risata gutturale riempie la sala." },
+      { "type": "dm",       "text": "Il rumore di sfregamento è il suono dello scomparto nascosto che si apre, e lo stridio è il suono delle pulegge che sostengono il peso del manichino mentre plana nell'aria. La risata è un innocuo effetto magico simile a quello prodotto dal trucchetto prestidigitazione." },
+      { "type": "dm",       "text": "Fai tirare l'iniziativa ai giocatori e gestisci la scena come un incontro di combattimento, con il «vampiro» che agisce al conteggio di iniziativa 5. Nel suo turno, il manichino vola sopra i personaggi, a tre metri dal pavimento, e non si ferma finché non raggiunge l'estremità est della sala. Nel turno successivo inverte la direzione e torna nel suo scomparto. La trappola si ripristina dopo 1 minuto." },
+      { "type": "dm",       "text": "Un personaggio che attacca il manichino dal pavimento ha bisogno di una gittata di almeno tre metri. Il manichino ha CA 15 e 10 punti ferita, ed è immune ai danni da veleno e psichici. Se il manichino viene ridotto a 0 punti ferita mentre è in aria, cade al suolo." }
     ]
   },
   "K28": {
@@ -278,35 +283,55 @@
   "K30": {
     "title": "Contabile del re",
     "sections": [
-      { "type": "read",     "text": "Rotoli di pergamena e tomi polverosi sono accatastati lungo le pareti di questa stanza. Altri libri e pergamene giacciono sparsi sul pavimento, attorno a quattro pesanti forzieri di legno chiusi da robusti lucchetti in ferro. Al centro di questo disordine si trova una grande scrivania aperta. Una figura curva seduta su un alto sgabello è intenta a scrivere qualcosa su una pergamena apparentemente infinita con una penna d'oca asciutta. Nelle vicinanze, una corda con nappe pende da un buco nel soffitto." },
-      { "type": "dm",       "text": "La figura è Lief Lipsiege (popolano umano CM), un contabile. È incatenato alla pesante scrivania di legno e non ha alcun interesse per i personaggi. Se si sente minacciato, tira la corda (richiede un'azione): 1d6 round dopo arrivano 1d6 ombre, 1d4 progenie vampiriche, 1d4 wight, oppure 1 spirito dannato e 1d4+1 spettri." },
-      { "type": "dm",       "text": "Se viene trattato con gentilezza, Lief divulgherà il nascondiglio del Simbolo Sacro di Ravenkind (vedi appendice C), come indicato dalla lettura delle carte. La porta occidentale conduce all'area K25. La porta orientale dà su una scala (area K21) che scende fino all'area K9 e sale verso l'area K35 e poi l'area K47." },
+      { "type": "read",     "text": "Rotoli di pergamena e tomi polverosi rivestono le pareti di questa stanza. Altri rotoli e libri giacciono sparsi sul pavimento, attorno a quattro pesanti forzieri di legno dotati di robusti lucchetti di ferro. L'unico spazio di pavimento libero è proprio davanti alle porte sulle pareti est e ovest." },
+      { "type": "dm",       "text": "Al centro di questo disordine si erge una grande scrivania nera. Una figura è accovacciata su un alto sgabello, intenta a graffiare con una penna d'oca asciutta su un rotolo di carta apparentemente senza fine. Lì vicino, una corda con nappe pende da un buco nel soffitto." },
+      { "type": "dm",       "text": "La figura è Lief Lipsiege (popolano umano CM), un contabile. È incatenato alla pesante scrivania di legno e non ha alcun interesse per i personaggi o le loro faccende. In nessun caso lascia volontariamente la stanza. Lief tira la corda nell'istante in cui si sente minacciato." },
+      { "type": "dm",       "text": "Tirare la corda richiede un'azione. Quando la corda viene tirata, risuona un gong terribilmente forte. Una o più creature arrivano 1d6 round dopo, attaccando i personaggi ancora presenti nella stanza. Determina le creature in modo casuale tirando un d4:" },
+      { "type": "dm",       "text": "d4 — Creatura" },
+      { "type": "dm",       "text": "1 — 1d6 ombre" },
+      { "type": "dm",       "text": "2 — 1d4 progenie vampiriche" },
+      { "type": "dm",       "text": "3 — 1d4 wight" },
+      { "type": "dm",       "text": "4 — 1 spirito dannato e 1d4+1 spettri" },
+      { "type": "dm",       "text": "Lief fu costretto al servizio da Strahd molti anni fa. Tiene tutti i registri contabili per Strahd, annotando le ricchezze e le conquiste del vampiro. Lief è qui da più tempo di quanto riesca a ricordare. È scontroso perché Strahd non gli permette di conoscere tutti i suoi tesori. Ciononostante, Lief ha scoperto dove si trova uno dei tesori segreti di Strahd. Se trattato con gentilezza, Lief rivelerà il nascondiglio del Simbolo Sacro di Ravenkind, come indicato dalla lettura delle carte. Lief può disegnare una rozza mappa che mostra un percorso fino a quel luogo. La sua mappa è geograficamente accurata, ma ammette che non segnala né evita gli eventuali pericoli lungo il tragitto. Lief non conosce necessariamente il percorso più diretto verso l'ubicazione del simbolo." },
+      { "type": "dm",       "text": "Lief sa che c'è una chiave che apre tutti e quattro i forzieri, ma non ricorda dove l'abbia nascosta. Vedi «Tesoro» più avanti per maggiori informazioni." },
+      { "type": "dm",       "text": "La porta occidentale conduce all'area K25. La porta orientale dà accesso a una scala (area K21) che scende fino all'area K9 e sale fino a un pianerottolo fuori dall'area K35, proseguendo da lì verso l'alto fino all'area K47." },
       { "type": "subtitle", "text": "Tesoro" },
-      { "type": "dm",       "text": "Due forzieri chiusi contengono 10.000 mr ciascuno, il terzo contiene 1.000 mo e il quarto contiene 500 mp: sotto è nascosto un Manuale di salute del corpo." }
+      { "type": "dm",       "text": "La stanza contiene centinaia di libri e pergamene senza valore che descrivono procedure contabili. Il primo personaggio che trascorre almeno 10 minuti a perquisire la stanza e supera una prova di Intelligenza (Indagare) con CD 15 trova un libro con una copertina di pelle macchiata di sangue. Le pagine di questo libro sono state svuotate, creando un vano in cui Lief ha nascosto la chiave di ferro che apre i quattro forzieri di legno presenti nella stanza." },
+      { "type": "dm",       "text": "Due dei forzieri chiusi a chiave contengono 10.000 mr ciascuno. Un terzo forziere contiene 1.000 mo. Il quarto contiene 500 mp, sotto cui è nascosto un Manuale di salute del corpo." }
     ]
   },
   "K31": {
     "title": "Macchinario per il montacarichi",
     "sections": [
-      { "type": "read",     "text": "L'odore di grasso e legno ben oliato colpisce le vostre narici non appena aprite la porta. Questa stanza di tre metri per sei è completamente occupata da un complesso macchinario, eccezion fatta per piccoli spazi tra gli ingranaggi di pietra e le catene e le pulegge di ferro. Dall'altro lato del macchinario, a sud, c'è un pozzo rettangolare che sale dall'oscurità e prosegue oltre questa stanza. Attaccata alla parete ovest c'è una piastra di acciaio con una leva di ferro che sporge verso il basso." },
-      { "type": "dm",       "text": "Il pozzo (area K31a) scende di 27 metri fino all'area K61 e sale di 12 metri fino all'area K31b. La leva, se spostata verso l'alto, attiva la trappola montacarichi nell'area K61. Una porta segreta sulla parete nord si apre sull'area K27." }
+      { "type": "read", "text": "L'aroma di grasso e di legno ben oliato vi colpisce le narici non appena aprite la porta. Questa stanza di tre metri per sei è riempita da un macchinario intricato, eccetto piccoli spazi tra gli ingranaggi di pietra e le catene e pulegge di ferro. Dall'altro lato del macchinario, a sud, c'è un pozzo rettangolare che si innalza dall'oscurità e prosegue oltre questa stanza. Fissata alla parete ovest c'è una piastra d'acciaio da cui sporge verso il basso una leva di ferro." },
+      { "type": "dm",   "text": "Vedi il diagramma sottostante. Il pozzo (area K31a) scende di 27 metri da qui fino all'area K61 e risale di 12 metri fino all'area K31b. Altri 12 metri più in alto c'è una botola di pietra nel soffitto che si apre sull'area K47." },
+      { "type": "dm",   "text": "Azionare il macchinario in questa stanza solleva un vano-ascensore di pietra dal fondo del pozzo, facendolo salire oltre questa stanza fino alla cima del pozzo. Vedi l'area K61 per maggiori informazioni sulla trappola del montacarichi." },
+      { "type": "dm",   "text": "Un personaggio può impiegare 1 minuto per disattivare il macchinario di questa stanza. La trappola del montacarichi non funziona finché il macchinario non viene riparato." },
+      { "type": "dm",   "text": "La leva di ferro incassata nella parete occidentale è normalmente in posizione «abbassata». Spostarla in posizione «alzata» attiva la trappola e fa salire l'ascensore. Riabbassarla fa scendere l'ascensore e ripristina la trappola." },
+      { "type": "dm",   "text": "Quando la trappola del montacarichi nell'area K61 viene attivata, tutte le catene, le pulegge e gli ingranaggi di questa stanza si muovono all'unisono. L'ascensore impiega 10 secondi (1 round) per raggiungere la cima del pozzo, e il macchinario non si ferma finché l'ascensore non completa il suo tragitto." },
+      { "type": "dm",   "text": "Una porta segreta nella parete nord è facile da individuare da questo lato (nessuna prova di caratteristica richiesta) e si apre sull'area K27." }
     ]
   },
   "K31a": { "title": "Pozzo del Montacarichi", "sections": [
-    { "type": "read", "text": "L'aria fredda riempie questo pozzo rettangolare, le cui pareti sono lisce e ricoperte di muffa. Catene di ferro tese si estendono per tutta l'altezza del pozzo. Le maglie delle catene sono spesse e ricoperte di unto." },
-    { "type": "dm",   "text": "Il pozzo è alto circa 52 metri: va dall'area K61 fino alla botola nell'area K47, passando per l'area K31 e K31b. Scalare il pozzo è impossibile senza magia o kit da scalatore." }
+    { "type": "read", "text": "L'aria fredda riempie questo pozzo rettangolare, le cui pareti sono ricoperte di muffa e levigate. Catene di ferro tese si estendono verso l'alto e verso il basso del pozzo. Le maglie delle catene sono spesse e ricoperte di grasso." },
+    { "type": "dm",   "text": "Il pozzo è alto circa 52 metri. Parte dall'area K61, sale di 27 metri fino all'area K31, altri 12 metri fino all'area K31b e altri 12 metri fino all'area K47. Quando la trappola del montacarichi viene attivata (vedi area K61 per i dettagli), un vano-ascensore di pietra di tre metri per lato sale lungo la metà occidentale del pozzo. Allo stesso tempo, un blocco massiccio di pietra, anch'esso di tre metri per lato, scende nella metà orientale del pozzo, fungendo da contrappeso. A entrambi i blocchi di pietra sono imbullonate spesse catene di ferro, con cui vengono issati e abbassati all'occorrenza." },
+    { "type": "dm",   "text": "Scalare il pozzo è impossibile senza l'aiuto della magia o l'uso di un kit da scalatore, perché le pareti sono lisce e viscide di muffa, e le unte catene di ferro sono troppo spesse e scivolose per essere afferrate." },
+    { "type": "dm",   "text": "Nel soffitto del pozzo è incassata una botola di pietra di un metro e mezzo per lato che può essere spinta verso l'alto per aprirsi e rivelare l'area K47." }
   ] },
   "K31b": { "title": "Accesso al Pozzo", "sections": [
-    { "type": "read", "text": "Questa stanza di tre metri per lato si affaccia a sud su un pozzo verticale che si tuffa nell'oscurità e prosegue verso l'alto." },
-    { "type": "dm",   "text": "Una porta segreta sulla parete nord si apre sull'area K39." }
+    { "type": "read", "text": "Questa stanza di tre metri per lato si affaccia su un pozzo verticale a sud che precipita nell'oscurità e prosegue verso l'alto." },
+    { "type": "dm",   "text": "Questo punto d'osservazione si trova a circa 40 metri dal fondo del pozzo (area K31a). Dodici metri più in basso c'è l'area K31, e dodici metri più in alto c'è una botola di pietra nel soffitto che si apre sull'area K47." },
+    { "type": "dm",   "text": "Una porta nella parete nord è facile da individuare da questo lato (nessuna prova di caratteristica richiesta) e si apre sull'area K39." }
   ] },
   "K32": {
     "title": "Cameriera dannata",
     "sections": [
-      { "type": "read",     "text": "Le lampade a olio illuminano questa lunga stanza rettangolare con pareti rivestite di pannelli di legno di quercia. Pizzi macchiati e ingialliti pendono ordinatamente da otto letti a baldacchino. La figura di una donna si muove agilmente per la stanza, spolverando i mobili e canticchiando tra sé. Intorno al suo collo pallido e snello c'è una collana d'oro con un ciondolo di rubini." },
-      { "type": "dm",       "text": "La cameriera si chiama Helga Ruvak ed è una progenie vampirica. Sostiene di essere la figlia del calzolaio del villaggio, rapita da Strahd. Supplica di essere salvata, ma ha intenzione di attaccare i personaggi alla prima occasione utile." },
+      { "type": "read",     "text": "Lampade a olio illuminano questa lunga camera rettangolare con pareti rivestite di pannelli di quercia. Pizzi macchiati e ingialliti pendono ordinatamente da otto letti a baldacchino. La figura di una donna si muove con agilità per la stanza, spolverando i mobili e canticchiando sommessamente. Attorno al suo collo pallido e snello c'è una collana d'oro con un ciondolo di rubino." },
+      { "type": "dm",       "text": "La cameriera, Helga Ruvak, è una progenie vampirica che sostiene di essere la figlia del calzolaio del villaggio, rapita e costretta al servizio da Strahd. Supplica, anche in ginocchio se necessario, di essere salvata da questo posto orribile." },
+      { "type": "dm",       "text": "Helga si unirà al gruppo se i personaggi glielo chiedono. Ha intenzione di attaccare i personaggi, ma lo fa solo se percepisce un'occasione che non comporti dover combattere l'intero gruppo. Attacca anche se le viene ordinato da Strahd." },
+      { "type": "dm",       "text": "Helga recita fino all'ultimo la parte dell'innocente damigella in pericolo, rivelando la propria ferocia solo quando attacca. È davvero la figlia del calzolaio che dice di essere, ma ha scelto una vita di malvagità al fianco di Strahd." },
       { "type": "subtitle", "text": "Tesoro" },
-      { "type": "dm",       "text": "La collana d'oro di Helga con il pendente di rubini è un regalo di Strahd. La collana ha quasi cinque secoli e vale 750 mo." }
+      { "type": "dm",       "text": "La collana d'oro di Helga con il ciondolo di rubino è un dono di Strahd. La collana ha quasi cinque secoli e vale 750 mo." }
     ]
   },
   "K33": {
